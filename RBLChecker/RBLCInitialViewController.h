@@ -43,4 +43,7 @@
 #define safe_end_color [UIColor colorWithHex:0xdff0d8]
 #define safe_start_color [UIColor colorWithHex:0xdff0d8]
 
+- (BOOL)isValidIP:(NSString*)address isV6:(BOOL)ipv6;
+- (BOOL)isValidFQDN:(NSString *)address;
+
 @end

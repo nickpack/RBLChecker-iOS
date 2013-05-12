@@ -6,6 +6,7 @@ pod "TSMessages"
 pod "GoogleAnalytics-iOS-SDK"
 pod "ODRefreshControl"
 pod "FontAwesomeKit"
+pod "GHUnitIOS"
 
 post_install do | installer |
   require 'fileutils'

@@ -18,6 +18,12 @@
 #define COCOAPODS_VERSION_MINOR_FontAwesomeKit 1
 #define COCOAPODS_VERSION_PATCH_FontAwesomeKit 2
 
+// GHUnitIOS
+#define COCOAPODS_POD_AVAILABLE_GHUnitIOS
+#define COCOAPODS_VERSION_MAJOR_GHUnitIOS 0
+#define COCOAPODS_VERSION_MINOR_GHUnitIOS 5
+#define COCOAPODS_VERSION_PATCH_GHUnitIOS 6
+
 // GoogleAnalytics-iOS-SDK
 #define COCOAPODS_POD_AVAILABLE_GoogleAnalytics_iOS_SDK
 // This library does not follow semantic-versioning,
