@@ -284,6 +284,7 @@
 				D9E6F08D1740319B00B4CB49 /* Sources */,
 				D9E6F08E1740319B00B4CB49 /* Frameworks */,
 				D9E6F08F1740319B00B4CB49 /* Resources */,
+				D926AFEB17403F9E00B9DE5F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -386,6 +387,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		D926AFEB17403F9E00B9DE5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh RunTests.sh";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -591,7 +606,7 @@
 				D9C7A633173EB6C200D19DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D9C7A634173EB6C200D19DB3 /* Build configuration list for PBXNativeTarget "RBLChecker" */ = {
 			isa = XCConfigurationList;
@@ -600,7 +615,7 @@
 				D9C7A636173EB6C200D19DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D9E6F0A71740319C00B4CB49 /* Build configuration list for PBXNativeTarget "RBLCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -609,7 +624,7 @@
 				D9E6F0A91740319C00B4CB49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
