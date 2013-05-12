@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHViewTestCase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHViewTestCase</TokenIdentifier>
+			<Abstract type="html">View verification test case.</Abstract>
+			<DeclaredIn>GHViewTestCase.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GHViewTestCase/clearTestImages</TokenIdentifier>
+			<Abstract type="html">Clear all test images in the documents directory.</Abstract>
+			<DeclaredIn>GHViewTestCase.h</DeclaredIn>			
+			
+			<Declaration>+ (void)clearTestImages</Declaration>
+			
+			
+			<Anchor>//api/name/clearTestImages</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GHViewTestCase/imageWithView:</TokenIdentifier>
+			<Abstract type="html">Creates a UIImage from the passed in view. This can be useful for testing
+views that require images.</Abstract>
+			<DeclaredIn>GHViewTestCase.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)imageWithView:(UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">UIView to render</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">UIImage of the rendered UIView</Abstract></ReturnValue>
+			<Anchor>//api/name/imageWithView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GHViewTestCase/saveApprovedViewTestImage:filename:</TokenIdentifier>
+			<Abstract type="html">Save an approved view test image to the view test images directory.</Abstract>
+			<DeclaredIn>GHViewTestCase.h</DeclaredIn>			
+			
+			<Declaration>+ (void)saveApprovedViewTestImage:(UIImage *)image filename:(NSString *)filename</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">Image to save</Abstract>
+				</Parameter><Parameter>
+					<Name>filename</Name>
+					<Abstract type="html">Filename for the saved image</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveApprovedViewTestImage:filename:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHViewTestCase/sizeForView:</TokenIdentifier>
+			<Abstract type="html">Size for a given view. Subclasses can override this to provide custom sizes
+for views before rendering. The default implementation returns contentSize
+for scrollviews and returns self.frame.size for all other views.</Abstract>
+			<DeclaredIn>GHViewTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (CGSize)sizeForView:(UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">View for which to calculate the size</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Size at which the view should be rendered</Abstract></ReturnValue>
+			<Anchor>//api/name/sizeForView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHViewTestCase/verifyView:filename:lineNumber:</TokenIdentifier>
+			<Abstract type="html">Called from the GHVerifyView macro. This method should not be called manually.
+Verifies that a view hasn&apos;t changed since the last time it was approved. Raises
+a GHViewChangeException if the view has changed. Raises a GHViewUnavailableException
+if there is no image from a previous run.</Abstract>
+			<DeclaredIn>GHViewTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (void)verifyView:(UIView *)view filename:(NSString *)filename lineNumber:(int)lineNumber</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">View to verify</Abstract>
+				</Parameter><Parameter>
+					<Name>filename</Name>
+					<Abstract type="html">Filename of the call to GHVerifyView</Abstract>
+				</Parameter><Parameter>
+					<Name>lineNumber</Name>
+					<Abstract type="html">Line number of the call to GHVerifyView</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/verifyView:filename:lineNumber:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
