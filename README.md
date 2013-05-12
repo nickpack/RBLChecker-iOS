@@ -17,6 +17,14 @@ I owe a lot of thanks to the following projects for making it as painless as pos
 * SVWebViewController
 * TSMessages
 
+## Whats next with this?
+Heres a very scrappy braindump that I intend to implement:
+* Add bookmarking of server addresses using CoreData
+* Store historical results in Coredata
+* Plot health history graphs based on aforementioned data
+* Expand webservice and add a scheduled check of hosts, with push notifications to the app
+* Replace all of the listing API calls with native DNS lookups on the device - This is really poorly documented and I didn't have time to mess with it when I built this but basically the underlying OS networking C code needs to be used to achieve this.
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
 
