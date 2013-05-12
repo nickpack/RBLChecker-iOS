@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHMockNSHTTPURLResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHMockNSHTTPURLResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSHTTPURLResponse.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSHTTPURLResponse/initWithStatusCode:headers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSHTTPURLResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithStatusCode:(NSInteger)statusCode headers:(NSDictionary *)headers</Declaration>
+			
+			
+			<Anchor>//api/name/initWithStatusCode:headers:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSHTTPURLResponse/setStatusCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSHTTPURLResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setStatusCode:(NSInteger)code</Declaration>
+			
+			
+			<Anchor>//api/name/setStatusCode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSHTTPURLResponse/setHeaders:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSHTTPURLResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setHeaders:(NSDictionary *)headers</Declaration>
+			
+			
+			<Anchor>//api/name/setHeaders:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

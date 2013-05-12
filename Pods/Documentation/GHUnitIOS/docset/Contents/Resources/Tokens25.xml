@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+GTMNSStringXMLAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(GTMNSStringXMLAdditions)</TokenIdentifier>
+			<Abstract type="html">Utilities for NSStrings containing XML</Abstract>
+			<DeclaredIn>GTMNSString+XML.h</DeclaredIn>
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSString(GTMNSStringXMLAdditions)/gtm_stringBySanitizingAndEscapingForXML</TokenIdentifier>
+			<Abstract type="html">This call escapes &apos;&amp;amp;amp;&apos;, &apos;&lt;, &apos;&gt;&apos;, &apos;\&apos;&apos;, &apos;&quot;&apos; per the xml spec and removes all
+invalid characters as defined by Section 2.2 of the xml spec.</Abstract>
+			<DeclaredIn>GTMNSString+XML.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)gtm_stringBySanitizingAndEscapingForXML</Declaration>
+			
+			
+			<Anchor>//api/name/gtm_stringBySanitizingAndEscapingForXML</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSString(GTMNSStringXMLAdditions)/gtm_stringBySanitizingToXMLSpec</TokenIdentifier>
+			<Abstract type="html">This call removes all invalid characters as defined by Section 2.2 of the
+xml spec.  If you are writing XML yourself, you probably was to use the
+above api (gtm_stringBySanitizingAndEscapingForXML so any entities also
+get escaped.</Abstract>
+			<DeclaredIn>GTMNSString+XML.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)gtm_stringBySanitizingToXMLSpec</Declaration>
+			
+			
+			<Anchor>//api/name/gtm_stringBySanitizingToXMLSpec</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

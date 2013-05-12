@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHUnitIOSTestView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHUnitIOSTestView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUnitIOSTestView/setControlDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>			
+			
+			<Declaration>@property (unsafe_unretained, nonatomic) id&lt;GHUnitIOSTestViewDelegate&gt; controlDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/controlDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHUnitIOSTestView/controlDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>			
+			
+			<Declaration>@property (unsafe_unretained, nonatomic) id&lt;GHUnitIOSTestViewDelegate&gt; controlDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/controlDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUnitIOSTestView/setSavedImage:renderedImage:text:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setSavedImage:(UIImage *)savedImage renderedImage:(UIImage *)renderedImage text:(NSString *)text</Declaration>
+			
+			
+			<Anchor>//api/name/setSavedImage:renderedImage:text:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUnitIOSTestView/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setText:(NSString *)text</Declaration>
+			
+			
+			<Anchor>//api/name/setText:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

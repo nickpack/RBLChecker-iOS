@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHTestCase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHTestCase</TokenIdentifier>
+			<Abstract type="html">The base class for a test case.</Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/setCurrentSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) SEL currentSelector</Declaration>
+			
+			
+			<Anchor>//api/name/currentSelector</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHTestCase/currentSelector</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) SEL currentSelector</Declaration>
+			
+			
+			<Anchor>//api/name/currentSelector</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/setLogWriter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>@property (unsafe_unretained, nonatomic) id&lt;GHTestCaseLogWriter&gt; logWriter</Declaration>
+			
+			
+			<Anchor>//api/name/logWriter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHTestCase/logWriter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>@property (unsafe_unretained, nonatomic) id&lt;GHTestCaseLogWriter&gt; logWriter</Declaration>
+			
+			
+			<Anchor>//api/name/logWriter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/setUp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (void)setUp</Declaration>
+			
+			
+			<Anchor>//api/name/setUp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/tearDown</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (void)tearDown</Declaration>
+			
+			
+			<Anchor>//api/name/tearDown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/failWithException:</TokenIdentifier>
+			<Abstract type="html">By default exceptions are raised, causing a test failure</Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (void)failWithException:(NSException *)exception</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>exception</Name>
+					<Abstract type="html">Exception that was raised by test</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/failWithException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/setUpClass</TokenIdentifier>
+			<Abstract type="html">Run before the tests (once per test case).</Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (void)setUpClass</Declaration>
+			
+			
+			<Anchor>//api/name/setUpClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/tearDownClass</TokenIdentifier>
+			<Abstract type="html">Run after the tests (once per test case).</Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (void)tearDownClass</Declaration>
+			
+			
+			<Anchor>//api/name/tearDownClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/shouldRunOnMainThread</TokenIdentifier>
+			<Abstract type="html">Whether to run the tests on a separate thread. Override this method in your
+test case to override the default.
+Default is NO, tests are run on a separate thread by default.</Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)shouldRunOnMainThread</Declaration>
+			
+			<ReturnValue><Abstract type="html">If YES, the test will run on the main thread</Abstract></ReturnValue>
+			<Anchor>//api/name/shouldRunOnMainThread</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/handleException:</TokenIdentifier>
+			<Abstract type="html">Any special handling of exceptions after they are thrown; By default logs stack trace to standard out.</Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (void)handleException:(NSException *)exception</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>exception</Name>
+					<Abstract type="html">Exception</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/log:</TokenIdentifier>
+			<Abstract type="html">Log a message, which notifies the log delegate.
+This is not meant to be used directly, see GHTestLog(...) macro.</Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (void)log:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">Message to log</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/log:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestCase/isCLIDisabled</TokenIdentifier>
+			<Abstract type="html">Whether the test class should be run as a part of command line tests.
+By default this is NO. Subclasses can override this method to disable
+test classes that are problematic at the command line.</Abstract>
+			<DeclaredIn>GHTestCase.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isCLIDisabled</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if this test class is disabled for command line tests</Abstract></ReturnValue>
+			<Anchor>//api/name/isCLIDisabled</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

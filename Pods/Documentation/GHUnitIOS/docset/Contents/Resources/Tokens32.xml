@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GHTestNodeDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GHTestNodeDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GHTestNodeDelegate/testNodeDidChange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (void)testNodeDidChange:(GHTestNode *)node</Declaration>
+			
+			
+			<Anchor>//api/name/testNodeDidChange:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

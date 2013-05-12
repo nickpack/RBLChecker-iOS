@@ -45,8 +45,6 @@
 
 @interface RBLCInitialViewController ()
 - (void)reload:(id)sender;
-- (BOOL)isValidIP:(NSString*)address isV6:(BOOL)ipv6;
-- (BOOL)isValidFQDN:(NSString *)address;
 - (void)customizeNavBar;
 - (void)checkListings:(NSString *)ip;
 - (NSString *)ipForHostname:(NSString *)hostname;

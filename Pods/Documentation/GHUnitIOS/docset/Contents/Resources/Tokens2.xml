@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHImageDiffView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHImageDiffView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHImageDiffView.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHImageDiffView/setSavedImage:renderedImage:diffImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHImageDiffView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setSavedImage:(UIImage *)savedImage renderedImage:(UIImage *)renderedImage diffImage:(UIImage *)diffImage</Declaration>
+			
+			
+			<Anchor>//api/name/setSavedImage:renderedImage:diffImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHImageDiffView/showSavedImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHImageDiffView.h</DeclaredIn>			
+			
+			<Declaration>- (void)showSavedImage</Declaration>
+			
+			
+			<Anchor>//api/name/showSavedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHImageDiffView/showRenderedImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHImageDiffView.h</DeclaredIn>			
+			
+			<Declaration>- (void)showRenderedImage</Declaration>
+			
+			
+			<Anchor>//api/name/showRenderedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHImageDiffView/showDiffImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHImageDiffView.h</DeclaredIn>			
+			
+			<Declaration>- (void)showDiffImage</Declaration>
+			
+			
+			<Anchor>//api/name/showDiffImage</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
