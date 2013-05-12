@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHUnitIOSView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHUnitIOSView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUnitIOSView/setStatusLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UILabel *statusLabel</Declaration>
+			
+			
+			<Anchor>//api/name/statusLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHUnitIOSView/statusLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UILabel *statusLabel</Declaration>
+			
+			
+			<Anchor>//api/name/statusLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUnitIOSView/setFilterControl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UISegmentedControl *filterControl</Declaration>
+			
+			
+			<Anchor>//api/name/filterControl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHUnitIOSView/filterControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UISegmentedControl *filterControl</Declaration>
+			
+			
+			<Anchor>//api/name/filterControl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUnitIOSView/setSearchBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UISearchBar *searchBar</Declaration>
+			
+			
+			<Anchor>//api/name/searchBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHUnitIOSView/searchBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UISearchBar *searchBar</Declaration>
+			
+			
+			<Anchor>//api/name/searchBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUnitIOSView/setTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHUnitIOSView/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSView.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

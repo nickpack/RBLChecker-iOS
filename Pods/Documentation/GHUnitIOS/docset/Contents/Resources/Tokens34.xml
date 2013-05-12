@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GHUnitIOSTestViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GHUnitIOSTestViewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GHUnitIOSTestViewDelegate/testViewDidSelectSavedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>			
+			
+			<Declaration>- (void)testViewDidSelectSavedImage:(GHUnitIOSTestView *)testView</Declaration>
+			
+			
+			<Anchor>//api/name/testViewDidSelectSavedImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GHUnitIOSTestViewDelegate/testViewDidSelectRenderedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>			
+			
+			<Declaration>- (void)testViewDidSelectRenderedImage:(GHUnitIOSTestView *)testView</Declaration>
+			
+			
+			<Anchor>//api/name/testViewDidSelectRenderedImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GHUnitIOSTestViewDelegate/testViewDidApproveChange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUnitIOSTestView.h</DeclaredIn>			
+			
+			<Declaration>- (void)testViewDidApproveChange:(GHUnitIOSTestView *)testView</Declaration>
+			
+			
+			<Anchor>//api/name/testViewDidApproveChange:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

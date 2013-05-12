@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHUIImageViewControl.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHUIImageViewControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUIImageViewControl.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUIImageViewControl/setImageView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUIImageViewControl.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHUIImageViewControl/imageView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUIImageViewControl.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUIImageViewControl/setImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUIImageViewControl.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHUIImageViewControl/image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUIImageViewControl.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHUIImageViewControl/initWithFrame:image:highlightedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHUIImageViewControl.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame image:(UIImage *)image highlightedImage:(UIImage *)highlightedImage</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:image:highlightedImage:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

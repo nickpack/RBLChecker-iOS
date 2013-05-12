@@ -1,6 +1,7 @@
 PODS:
   - AFNetworking (1.2.1)
   - FontAwesomeKit (1.1.2)
+  - GHUnitIOS (0.5.6)
   - GoogleAnalytics-iOS-SDK (2.0beta4)
   - ODRefreshControl (1.1.0)
   - PrettyKit (0.2.0)
@@ -10,6 +11,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - FontAwesomeKit
+  - GHUnitIOS
   - GoogleAnalytics-iOS-SDK
   - ODRefreshControl
   - PrettyKit
@@ -19,6 +21,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 616da0028916ce296f5c3cef74e5552eb4e10e13
   FontAwesomeKit: ee3b0f8795bb8ab490d1f55b584004c29aa77b6d
+  GHUnitIOS: bf149b2c44084eee2785ce4ac3675c3a699e509d
   GoogleAnalytics-iOS-SDK: ae8e58e771b6dec84c0047154cc0e550a15e6f54
   ODRefreshControl: 886e323a7c25114b9e5c397a9eefbebc034224a9
   PrettyKit: 44b8f06f3719579880d2e11cd6498b7464b3b0fa

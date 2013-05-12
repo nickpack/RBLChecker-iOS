@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHTestViewModel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHTestViewModel</TokenIdentifier>
+			<Abstract type="html">Test view model for use in a tree view.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/setRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) GHTestNode *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHTestViewModel/root</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) GHTestNode *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/setEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic, getter=isEditing) BOOL editing</Declaration>
+			
+			
+			<Anchor>//api/name/editing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHTestViewModel/editing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic, getter=isEditing) BOOL editing</Declaration>
+			
+			
+			<Anchor>//api/name/editing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/initWithIdentifier:suite:</TokenIdentifier>
+			<Abstract type="html">Create view model with root test group node.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithIdentifier:(NSString *)identifier suite:(GHTestSuite *)suite</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">Unique identifier for test model (used to load defaults)</Abstract>
+				</Parameter><Parameter>
+					<Name>suite</Name>
+					<Abstract type="html">Suite</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithIdentifier:suite:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/name</TokenIdentifier>
+			<Abstract type="html">Name of test suite.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)name</Declaration>
+			
+			<ReturnValue><Abstract type="html">Name of test suite.</Abstract></ReturnValue>
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/statusString:</TokenIdentifier>
+			<Abstract type="html">Status description.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)statusString:(NSString *)prefix</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>prefix</Name>
+					<Abstract type="html">Prefix to append</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current status string</Abstract></ReturnValue>
+			<Anchor>//api/name/statusString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/findTestNodeForTest:</TokenIdentifier>
+			<Abstract type="html">Find the test node from the test.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (GHTestNode *)findTestNodeForTest:(id&lt;GHTest&gt;)test</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>test</Name>
+					<Abstract type="html">Find test</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/findTestNodeForTest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/findFailure</TokenIdentifier>
+			<Abstract type="html">Find the first failure.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (GHTestNode *)findFailure</Declaration>
+			
+			<ReturnValue><Abstract type="html">The first failure</Abstract></ReturnValue>
+			<Anchor>//api/name/findFailure</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/findFailureFromNode:</TokenIdentifier>
+			<Abstract type="html">Find the next failure starting from node.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (GHTestNode *)findFailureFromNode:(GHTestNode *)node</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>node</Name>
+					<Abstract type="html">Node to start from</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/findFailureFromNode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/registerNode:</TokenIdentifier>
+			<Abstract type="html">Register node, so that we can do a lookup later. See findTestNodeForTest:.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (void)registerNode:(GHTestNode *)node</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>node</Name>
+					<Abstract type="html">Node to register</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerNode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/numberOfGroups</TokenIdentifier>
+			<Abstract type="html">Returns the number of test groups.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)numberOfGroups</Declaration>
+			
+			<ReturnValue><Abstract type="html">Returns the number of test groups.</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/numberOfTestsInGroup:</TokenIdentifier>
+			<Abstract type="html">Returns the number of tests in group.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)numberOfTestsInGroup:(NSInteger)group</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>group</Name>
+					<Abstract type="html">Group number</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The number of tests in group.</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfTestsInGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/indexPathToTest:</TokenIdentifier>
+			<Abstract type="html">Search for path to test.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (NSIndexPath *)indexPathToTest:(id&lt;GHTest&gt;)test</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>test</Name>
+					<Abstract type="html">Test</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Index path</Abstract></ReturnValue>
+			<Anchor>//api/name/indexPathToTest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/loadDefaults</TokenIdentifier>
+			<Abstract type="html">Load defaults (user settings saved with saveDefaults.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (void)loadDefaults</Declaration>
+			
+			
+			<Anchor>//api/name/loadDefaults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/saveDefaults</TokenIdentifier>
+			<Abstract type="html">Save defaults (user settings to be loaded with loadDefaults.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (void)saveDefaults</Declaration>
+			
+			
+			<Anchor>//api/name/saveDefaults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/run:inParallel:options:</TokenIdentifier>
+			<Abstract type="html">Run with current test suite.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (void)run:(id&lt;GHTestRunnerDelegate&gt;)delegate inParallel:(BOOL)inParallel options:(GHTestOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">Callback</Abstract>
+				</Parameter><Parameter>
+					<Name>inParallel</Name>
+					<Abstract type="html">If YES, will run tests in operation queue</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">Options</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/run:inParallel:options:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/cancel</TokenIdentifier>
+			<Abstract type="html">Cancel test run.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHTestViewModel/isRunning</TokenIdentifier>
+			<Abstract type="html">Check if running.</Abstract>
+			<DeclaredIn>GHTestViewModel.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isRunning</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if running.</Abstract></ReturnValue>
+			<Anchor>//api/name/isRunning</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

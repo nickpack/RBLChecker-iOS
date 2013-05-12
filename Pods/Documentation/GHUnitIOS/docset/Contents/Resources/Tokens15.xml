@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHUnitIOSAppDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHUnitIOSAppDelegate</TokenIdentifier>
+			<Abstract type="html">Application delegate for the iOS test application.</Abstract>
+			<DeclaredIn>GHUnitIOSAppDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

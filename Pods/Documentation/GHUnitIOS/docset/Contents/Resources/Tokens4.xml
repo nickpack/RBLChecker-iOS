@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GHMockNSURLConnection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GHMockNSURLConnection</TokenIdentifier>
+			<Abstract type="html">NSURLConnection for mocking.</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/setStarted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic, getter=isStarted) BOOL started</Declaration>
+			
+			
+			<Anchor>//api/name/started</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHMockNSURLConnection/started</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic, getter=isStarted) BOOL started</Declaration>
+			
+			
+			<Anchor>//api/name/started</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/setCancelled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic, getter=isCancelled) BOOL cancelled</Declaration>
+			
+			
+			<Anchor>//api/name/cancelled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GHMockNSURLConnection/cancelled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic, getter=isCancelled) BOOL cancelled</Declaration>
+			
+			
+			<Anchor>//api/name/cancelled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/initWithRequest:delegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithRequest:(NSURLRequest *)request delegate:(id)delegate</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRequest:delegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/initWithRequest:delegate:startImmediately:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithRequest:(NSURLRequest *)request delegate:(id)delegate startImmediately:(BOOL)startImmediately</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRequest:delegate:startImmediately:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/scheduleInRunLoop:forMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)scheduleInRunLoop:(NSRunLoop *)aRunLoop forMode:(NSString *)mode</Declaration>
+			
+			
+			<Anchor>//api/name/scheduleInRunLoop:forMode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/start</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/receiveResponse:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Send generic response to delegate after delay.
+(For asynchronous requests)</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)receiveResponse:(NSURLResponse *)response afterDelay:(NSTimeInterval)afterDelay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">Response</Abstract>
+				</Parameter><Parameter>
+					<Name>afterDelay</Name>
+					<Abstract type="html">Delay in seconds (if &lt; 0, there is no delay)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveResponse:afterDelay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/receiveHTTPResponseWithStatusCode:headers:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Send HTTP response to delegate with status code, headers, after delay.
+This is only the HTTP response (and not data or finished).
+(For asynchronous requests)</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)receiveHTTPResponseWithStatusCode:(int)statusCode headers:(NSDictionary *)headers afterDelay:(NSTimeInterval)afterDelay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">HTTP status code</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">Headers</Abstract>
+				</Parameter><Parameter>
+					<Name>afterDelay</Name>
+					<Abstract type="html">Delay in seconds (if &lt; 0, there is no delay)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveHTTPResponseWithStatusCode:headers:afterDelay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/receiveData:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Send data to connection delegate after delay.</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)receiveData:(NSData *)data afterDelay:(NSTimeInterval)afterDelay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Data to send</Abstract>
+				</Parameter><Parameter>
+					<Name>afterDelay</Name>
+					<Abstract type="html">Delay in seconds</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveData:afterDelay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/receiveData:statusCode:MIMEType:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Send data to connection delegate.</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)receiveData:(NSData *)data statusCode:(NSInteger)statusCode MIMEType:(NSString *)MIMEType afterDelay:(NSTimeInterval)afterDelay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Data to send</Abstract>
+				</Parameter><Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">HTTP status code</Abstract>
+				</Parameter><Parameter>
+					<Name>MIMEType</Name>
+					<Abstract type="html">Mime type</Abstract>
+				</Parameter><Parameter>
+					<Name>afterDelay</Name>
+					<Abstract type="html">Delay</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveData:statusCode:MIMEType:afterDelay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/receiveDataFromPath:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Send data (from file in bundle resource) to connection delegate after delay.
+(For asynchronous requests)</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)receiveDataFromPath:(NSString *)path afterDelay:(NSTimeInterval)afterDelay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">Path to file</Abstract>
+				</Parameter><Parameter>
+					<Name>afterDelay</Name>
+					<Abstract type="html">Delay in seconds</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveDataFromPath:afterDelay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/finishAfterDelay:</TokenIdentifier>
+			<Abstract type="html">Calls connectionDidFinish: delegate after delay.
+(For asynchronous requests)</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)finishAfterDelay:(NSTimeInterval)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">Delay in seconds (if &lt; 0, there is no delay)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/finishAfterDelay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/receiveFromPath:statusCode:MIMEType:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Sends mock response, sends data, and then calls finish.
+(For asynchronous requests)</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)receiveFromPath:(NSString *)path statusCode:(NSInteger)statusCode MIMEType:(NSString *)MIMEType afterDelay:(NSTimeInterval)afterDelay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">Path to load data from. File should be available in Test target (bundle)</Abstract>
+				</Parameter><Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">Status code for response</Abstract>
+				</Parameter><Parameter>
+					<Name>MIMEType</Name>
+					<Abstract type="html">Content type for response header</Abstract>
+				</Parameter><Parameter>
+					<Name>afterDelay</Name>
+					<Abstract type="html">Delay before responding (if &lt; 0, there is no delay)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveFromPath:statusCode:MIMEType:afterDelay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GHMockNSURLConnection/failWithError:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Calls connection:didFailWithError: on delegate after specified delay.</Abstract>
+			<DeclaredIn>GHMockNSURLConnection.h</DeclaredIn>			
+			
+			<Declaration>- (void)failWithError:(NSError *)error afterDelay:(NSTimeInterval)afterDelay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error to pass to the delegate.</Abstract>
+				</Parameter><Parameter>
+					<Name>afterDelay</Name>
+					<Abstract type="html">Delay before responding (if &lt; 0, there is no delay)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/failWithError:afterDelay:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

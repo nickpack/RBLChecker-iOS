@@ -7,12 +7,27 @@
 		<key>RBLChecker.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>RBLCheckerTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>D9C7A610173EB6C100D19DB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9E6F07117402F3D00B4CB49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9E6F0901740319B00B4CB49</key>
 		<dict>
 			<key>primary</key>
 			<true/>
