@@ -39,7 +39,7 @@
     RBLCInitialViewController *initViewController = [[RBLCInitialViewController alloc] initWithCoder:nil];
     BOOL validationResult = [initViewController isValidIP:@"99999:f00:m1nge:face:b00c::3" isV6:YES];
 
-    GHAssertFalse(validationResult, @"An invalid IPv4 Address should return false");
+    GHAssertFalse(validationResult, @"An invalid IPv6 Address should return false");
 }
 
 @end

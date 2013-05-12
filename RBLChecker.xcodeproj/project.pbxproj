@@ -50,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		1C56F87BFAA34EF8A7ACCF75 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D926AFEA17403A5500B9DE5F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		D9C7A611173EB6C200D19DB3 /* RBLChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBLChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C7A614173EB6C200D19DB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9C7A616173EB6C200D19DB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +138,7 @@
 		D9C7A608173EB6C100D19DB3 = {
 			isa = PBXGroup;
 			children = (
+				D926AFEA17403A5500B9DE5F /* .travis.yml */,
 				D9E6F0B81740354B00B4CB49 /* SystemConfiguration.framework */,
 				D9E6F06C173FFF7B00B4CB49 /* Default-568h@2x.png */,
 				D9E6F06A173FFF7400B4CB49 /* Default@2x.png */,
@@ -607,6 +609,7 @@
 				D9E6F0A91740319C00B4CB49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
