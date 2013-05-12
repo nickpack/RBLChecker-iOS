@@ -18,7 +18,7 @@ I owe a lot of thanks to the following projects for making it as painless as pos
 * TSMessages
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using *TESTSUITE*.
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Changelog
 * 12/05/2013 - Initial public release
