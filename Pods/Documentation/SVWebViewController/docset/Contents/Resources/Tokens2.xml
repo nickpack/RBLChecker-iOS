@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SVWebViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SVWebViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVWebViewController.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SVWebViewController/initWithAddress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVWebViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAddress:(NSString *)urlString</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SVWebViewController/initWithURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVWebViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithURL:(NSURL *)URL</Declaration>
+			
+			
+			<Anchor>//api/name/initWithURL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SVWebViewController/setAvailableActions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVWebViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) SVWebViewControllerAvailableActions availableActions</Declaration>
+			
+			
+			<Anchor>//api/name/availableActions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SVWebViewController/availableActions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVWebViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) SVWebViewControllerAvailableActions availableActions</Declaration>
+			
+			
+			<Anchor>//api/name/availableActions</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

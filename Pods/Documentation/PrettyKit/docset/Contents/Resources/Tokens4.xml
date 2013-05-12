@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PrettyNavigationBar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PrettyNavigationBar</TokenIdentifier>
+			<Abstract type="html">PrettyNavigationBar is a subclass of UINavigationBar that removes the
+glossy effect and lets you customize its colors and corners.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyNavigationBar/setShadowOpacity:</TokenIdentifier>
+			<Abstract type="html">Specifies the navigation bar shadow&apos;s opacity.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float shadowOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOpacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyNavigationBar/shadowOpacity</TokenIdentifier>
+			<Abstract type="html">Specifies the navigation bar shadow&apos;s opacity.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float shadowOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOpacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyNavigationBar/setGradientStartColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s start color.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyNavigationBar/gradientStartColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s start color.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyNavigationBar/setGradientEndColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s end color.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyNavigationBar/gradientEndColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s end color.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyNavigationBar/setTopLineColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s top line color.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *topLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/topLineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyNavigationBar/topLineColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s top line color.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *topLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/topLineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyNavigationBar/setBottomLineColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s bottom line color.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *bottomLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyNavigationBar/bottomLineColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s bottom line color.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *bottomLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyNavigationBar/setRoundedCornerColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the background color for the rounded corners.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *roundedCornerColor</Declaration>
+			
+			
+			<Anchor>//api/name/roundedCornerColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyNavigationBar/roundedCornerColor</TokenIdentifier>
+			<Abstract type="html">Specifies the background color for the rounded corners.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *roundedCornerColor</Declaration>
+			
+			
+			<Anchor>//api/name/roundedCornerColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyNavigationBar/setRoundedCornerRadius:</TokenIdentifier>
+			<Abstract type="html">Specifies the radius for the rounded corners.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite) CGFloat roundedCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/roundedCornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyNavigationBar/roundedCornerRadius</TokenIdentifier>
+			<Abstract type="html">Specifies the radius for the rounded corners.</Abstract>
+			<DeclaredIn>PrettyNavigationBar.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite) CGFloat roundedCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/roundedCornerRadius</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

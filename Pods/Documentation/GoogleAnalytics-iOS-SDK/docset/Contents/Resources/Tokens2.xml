@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GAITrackedViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GAITrackedViewController</TokenIdentifier>
+			<Abstract type="html">Extends UIViewController to generate Google Analytics view tracking calls
+whenever the view appears; this is done by overriding the viewDidAppear:
+method. The view name must be set for any tracking calls to be made.</Abstract>
+			<DeclaredIn>GAITrackedViewController.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITrackedViewController/setTracker:</TokenIdentifier>
+			<Abstract type="html">The tracker on which view tracking calls are be made, or nil, in which case
+[GAI defaultTracker] will be used.</Abstract>
+			<DeclaredIn>GAITrackedViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;GAITracker&gt; tracker</Declaration>
+			
+			
+			<Anchor>//api/name/tracker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GAITrackedViewController/tracker</TokenIdentifier>
+			<Abstract type="html">The tracker on which view tracking calls are be made, or nil, in which case
+[GAI defaultTracker] will be used.</Abstract>
+			<DeclaredIn>GAITrackedViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;GAITracker&gt; tracker</Declaration>
+			
+			
+			<Anchor>//api/name/tracker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITrackedViewController/setTrackedViewName:</TokenIdentifier>
+			<Abstract type="html">The view name, for purposes of Google Analytics view tracking. If this is
+nil, no tracking calls will be made.</Abstract>
+			<DeclaredIn>GAITrackedViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *trackedViewName</Declaration>
+			
+			
+			<Anchor>//api/name/trackedViewName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GAITrackedViewController/trackedViewName</TokenIdentifier>
+			<Abstract type="html">The view name, for purposes of Google Analytics view tracking. If this is
+nil, no tracking calls will be made.</Abstract>
+			<DeclaredIn>GAITrackedViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *trackedViewName</Declaration>
+			
+			
+			<Anchor>//api/name/trackedViewName</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

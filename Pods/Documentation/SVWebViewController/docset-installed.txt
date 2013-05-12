@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/nickp666/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.svwebviewcontroller.SVWebViewController-0.1.docset
+Time: 2013-05-11 22:29:29 +0000

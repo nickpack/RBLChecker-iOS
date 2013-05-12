@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PrettyTabBar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PrettyTabBar</TokenIdentifier>
+			<Abstract type="html">PrettyTabBar is a subclass of UITabBar that removes the
+glossy effect and lets you customize its colors.</Abstract>
+			<DeclaredIn>PrettyTabBar.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTabBar/setGradientStartColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s start color.</Abstract>
+			<DeclaredIn>PrettyTabBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTabBar/gradientStartColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s start color.</Abstract>
+			<DeclaredIn>PrettyTabBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTabBar/setGradientEndColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s end color.</Abstract>
+			<DeclaredIn>PrettyTabBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTabBar/gradientEndColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s end color.</Abstract>
+			<DeclaredIn>PrettyTabBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTabBar/setSeparatorLineColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the top separator&apos;s color.</Abstract>
+			<DeclaredIn>PrettyTabBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *separatorLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/separatorLineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTabBar/separatorLineColor</TokenIdentifier>
+			<Abstract type="html">Specifies the top separator&apos;s color.</Abstract>
+			<DeclaredIn>PrettyTabBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *separatorLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/separatorLineColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

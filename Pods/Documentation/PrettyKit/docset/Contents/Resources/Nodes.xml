@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>PrettyKit 0.2.0</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>PrettyCustomViewTableViewCell</Name>
+			<Path>Classes/PrettyCustomViewTableViewCell.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>PrettyDrawing</Name>
+			<Path>Classes/PrettyDrawing.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>PrettyGridTableViewCell</Name>
+			<Path>Classes/PrettyGridTableViewCell.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>PrettyNavigationBar</Name>
+			<Path>Classes/PrettyNavigationBar.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>PrettySegmentedControlTableViewCell</Name>
+			<Path>Classes/PrettySegmentedControlTableViewCell.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>PrettyShadowPlainTableview</Name>
+			<Path>Classes/PrettyShadowPlainTableview.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>PrettyTabBar</Name>
+			<Path>Classes/PrettyTabBar.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>PrettyTableViewCell</Name>
+			<Path>Classes/PrettyTableViewCell.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>PrettyToolbar</Name>
+			<Path>Classes/PrettyToolbar.html</Path>
+		</Node>
+		
+		<Node id="10">
+			<Name>UIColor(PrettyKit)</Name>
+			<Path>Categories/UIColor+PrettyKit.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>UITableView(PrettyKitTableViewShadows)</Name>
+			<Path>Categories/UITableView+PrettyKitTableViewShadows.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>UIView(PrettyKit)</Name>
+			<Path>Categories/UIView+PrettyKit.html</Path>
+		</Node>
+		
+		
+	</Library>
+</DocSetNodes>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SVModalWebViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SVModalWebViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVModalWebViewController.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SVModalWebViewController/initWithAddress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVModalWebViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAddress:(NSString *)urlString</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SVModalWebViewController/initWithURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVModalWebViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithURL:(NSURL *)URL</Declaration>
+			
+			
+			<Anchor>//api/name/initWithURL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SVModalWebViewController/setBarsTintColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVModalWebViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *barsTintColor</Declaration>
+			
+			
+			<Anchor>//api/name/barsTintColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SVModalWebViewController/barsTintColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVModalWebViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *barsTintColor</Declaration>
+			
+			
+			<Anchor>//api/name/barsTintColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SVModalWebViewController/setAvailableActions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVModalWebViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) SVWebViewControllerAvailableActions availableActions</Declaration>
+			
+			
+			<Anchor>//api/name/availableActions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SVModalWebViewController/availableActions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVModalWebViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) SVWebViewControllerAvailableActions availableActions</Declaration>
+			
+			
+			<Anchor>//api/name/availableActions</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

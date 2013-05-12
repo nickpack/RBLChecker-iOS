@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>PrettyKit 0.2.0 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">PrettyKit 0.2.0 </a></h1>
+				<a id="developerHome" href="index.html">Victor Pena</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">PrettyKit 0.2.0 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">PrettyKit 0.2.0 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1>PrettyKit 0.2.0</h1>
+
+<p><code>PrettyKit</code> is a small set of new widgets and UIKit subclasses that gives you a deeper UIKit customization. You will be able to change their background color, add gradients, shadows, etc.</p>
+
+<p>At the time of writing these docs, there are subclasses for <code>UITableViewCell</code>, <code>UINavigationBar</code> and <code>UITabBar</code>, and several custom cells.</p>
+
+<p>Here are some examples of what you can achieve:</p>
+
+<p><img src="[https://github.com/vicpenap/PrettyKit/raw/master/Screenshots/grouped](https://github.com/vicpenap/PrettyKit/raw/master/Screenshots/grouped" alt="" />_table.png)</p>
+
+<p><img src="[https://github.com/vicpenap/PrettyKit/raw/master/Screenshots/plain](https://github.com/vicpenap/PrettyKit/raw/master/Screenshots/plain" alt="" />_table.png)</p>
+
+<h2>Documentation</h2>
+
+<p>Full documentation can be found here: <a href="http://vicpenap.github.com/PrettyKit">http://vicpenap.github.com/PrettyKit</a></p>
+
+<h2>Using it</h2>
+
+<p>First:</p>
+
+<ul>
+<li>Copy all files under the <code>PrettyKit</code> folder.</li>
+<li><code>#import "PrettyKit.h"</code> where you need it.</li>
+</ul>
+
+
+<p>Then, just change all your references to UI classes to Pretty classes, and you&rsquo;re done.</p>
+
+<p>You&rsquo;ll find further information on how to use the classes in the docs: <a href="http://vicpenap.github.com/PrettyKit">http://vicpenap.github.com/PrettyKit</a></p>
+
+<h2>Customization</h2>
+
+<p>All Pretty objects' properties have default values, but you can freely change them.</p>
+
+<h4>Pretty Cell</h4>
+
+<h5>Grouped tables</h5>
+
+<p>You can change the cell&rsquo;s appearance as follows:</p>
+
+<ul>
+<li>cell&rsquo;s shadow (border will be disabled when the shadow is enabled).</li>
+<li>cell&rsquo;s background color or gradient.</li>
+<li>cell&rsquo;s border color (border will be disabled when the shadow is enabled).</li>
+<li>cell&rsquo;s corner radius.</li>
+<li>cell&rsquo;s separator.</li>
+<li>cell&rsquo;s selection gradient.</li>
+</ul>
+
+
+<h5>Plain tables</h5>
+
+<p>You can change the cell&rsquo;s appearance as follows:</p>
+
+<ul>
+<li>cell&rsquo;s background color or gradient.</li>
+<li>cell&rsquo;s separator.</li>
+<li>cell&rsquo;s selection gradient.</li>
+</ul>
+
+
+<h4>Pretty Navigation Bar</h4>
+
+<p> You can change the navigation bar appearance as follows:</p>
+
+<ul>
+<li>shadow opacity</li>
+<li>gradient start color</li>
+<li>gradient end color</li>
+<li>top line volor</li>
+<li>bottom line color</li>
+<li>corner radius</li>
+</ul>
+
+
+<h4>Pretty Tab Bar</h4>
+
+<p> You can change the tab bar appearance as follows:</p>
+
+<ul>
+<li>gradient start color</li>
+<li>gradient end color</li>
+<li>separator line volor</li>
+</ul>
+
+
+<h2>Performance</h2>
+
+<p>Everything is drawn using Core Graphics, so you can expect a nice performance. Particular attention has been paid to non opaque areas, trying to reduce them as much as possible.</p>
+
+<p><img src="[https://github.com/vicpenap/PrettyKit/raw/master/Screenshots/blended_layers.png" alt="" />](https://github.com/vicpenap/PrettyKit/raw/master/Screenshots/blended_layers.png))</p>
+
+<h2>Current status</h2>
+
+<p>This framework is currently under active development. It is compatible with iOS 4.0 or higher.</p>
+
+<h2> F.A.Q.</h2>
+
+<p><strong>Q. How can I use <a href="Classes/PrettyNavigationBar.html">PrettyNavigationBar</a>?</strong></p>
+
+<ol type="a">
+<li><p>There are two possibilities:</p></li>
+<li><p>Interface Builder</p></li>
+</ol>
+
+
+<p>If you&rsquo;re building your interface with Interface Builder, select the navigationBar, go to the Identity inspector and change the class to <a href="Classes/PrettyNavigationBar.html"><code>PrettyNavigationBar</code></a>.</p>
+
+<ul>
+<li>Programmatically</li>
+</ul>
+
+
+<p>If you&rsquo;re creating the NavigationController programmatically, create a subclass of <code>UINavigationController</code>, override <code>initWithRootViewController</code> (or the constructors you want), and add this line:</p>
+
+<pre><code>[self setValue:[[[PrettyNavigationBar alloc] init] autorelease] forKeyPath:@"navigationBar"];
+</code></pre>
+
+<p>Take into account that this approach is a bit hackish, so it might be a reason for Apple to reject your app. That shouldn&rsquo;t happen, though.</p>
+
+<p>Also take a look at <a href="http://stackoverflow.com/questions/1869331/set-programmatically-a-custom-subclass-of-uinavigationbar-in-uinavigationcontrol">this stack overflow thread</a>, where other approaches are shown.</p>
+
+<p><strong>Q. I&rsquo;m stuck with this error: [UINavigationBar setTopLineColor:]: unrecognized selector sent to instance 0x6c5dd50</strong></p>
+
+<ol type="a">
+<li>Make sure the navigation bar is an instance of <a href="Classes/PrettyNavigationBar.html">PrettyNavigationBar</a>. Take a look at the question above.</li>
+</ol>
+
+
+<p><strong>Q. Is there a way to use the same <a href="Classes/PrettyNavigationBar.html">PrettyNavigationBar</a> customization in the entire app?</strong></p>
+
+<ol type="a">
+<li>There is, indeed. You can either create a subclass or a category on <a href="Classes/PrettyNavigationBar.html">PrettyNavigationBar</a>, and override the properties you want to change.</li>
+</ol>
+
+
+<p>For example, if you want to have a red navigationBar, you can create a <code>RedNavigationBar</code> subclass of <a href="Classes/PrettyNavigationBar.html"><code>PrettyNavigationBar</code></a>, and override the properties <code>topLineColor</code>, <code>gradientStartColor</code>, <code>gradientEndColor</code>, <code>bottomLineColor</code> and <code>tintColor</code>. Then, wherever you want to use the navigation bar, add an <code>#import "RedNavigationBar.h"</code> at the top of the code.</p>
+
+<h2>Contribution</h2>
+
+<p>Please, please contribute with this project! Fork it, improve it and make me a pull request.</p>
+
+<h2>Changelog</h2>
+
+<ul>
+<li>2012/08/01: v0.2.0
+
+<ul>
+<li>Bug fixing (memory issues, cell drawing, naming colision with new Xcode (DP3))</li>
+<li>New UITableView category to add a shortcut to drop the top and bottom shadow in plain tables</li>
+<li><a href="Classes/PrettyNavigationBar.html">PrettyNavigationBar</a> can now have rounded corners</li>
+<li>New widget <a href="Classes/PrettyToolbar.html">PrettyToolbar</a> (replacing UIToolbar)</li>
+</ul>
+</li>
+<li>2012/04/12: Initial release (v0.1.0)</li>
+</ul>
+
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/PrettyCustomViewTableViewCell.html">PrettyCustomViewTableViewCell</a></li>
+							
+							<li><a href="Classes/PrettyDrawing.html">PrettyDrawing</a></li>
+							
+							<li><a href="Classes/PrettyGridTableViewCell.html">PrettyGridTableViewCell</a></li>
+							
+							<li><a href="Classes/PrettyNavigationBar.html">PrettyNavigationBar</a></li>
+							
+							<li><a href="Classes/PrettySegmentedControlTableViewCell.html">PrettySegmentedControlTableViewCell</a></li>
+							
+							<li><a href="Classes/PrettyShadowPlainTableview.html">PrettyShadowPlainTableview</a></li>
+							
+							<li><a href="Classes/PrettyTabBar.html">PrettyTabBar</a></li>
+							
+							<li><a href="Classes/PrettyTableViewCell.html">PrettyTableViewCell</a></li>
+							
+							<li><a href="Classes/PrettyToolbar.html">PrettyToolbar</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						
+						<h2 class="index-title">Category References</h2>
+						<ul>
+							
+							<li><a href="Categories/UIColor+PrettyKit.html">UIColor(PrettyKit)</a></li>
+							
+							<li><a href="Categories/UITableView+PrettyKitTableViewShadows.html">UITableView(PrettyKitTableViewShadows)</a></li>
+							
+							<li><a href="Categories/UIView+PrettyKit.html">UIView(PrettyKit)</a></li>
+							
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Victor Pena. All rights reserved. (Last updated: 2013-05-11)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

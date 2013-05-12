@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GAITracker.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GAITracker</TokenIdentifier>
+			<Abstract type="html">Google Analytics tracking interface. Obtain instances of this interface from
+[GAI trackerWithTrackingId:] to track screens, events, transactions, timing,
+and exceptions. The implementation of this interface is thread-safe, and no
+calls are expected to block or take a long time.  All network and disk activity
+will take place in the background.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setTrackingId:</TokenIdentifier>
+			<Abstract type="html">The tracking identifier (the string that begins with &quot;UA-&quot;) this tracker is
+associated with.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSString *trackingId</Declaration>
+			
+			
+			<Anchor>//api/name/trackingId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/trackingId</TokenIdentifier>
+			<Abstract type="html">The tracking identifier (the string that begins with &quot;UA-&quot;) this tracker is
+associated with.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSString *trackingId</Declaration>
+			
+			
+			<Anchor>//api/name/trackingId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setAppName:</TokenIdentifier>
+			<Abstract type="html">The application name associated with this tracker. By default, this property is
+populated with the CFBundleName string from the application bundle. If you
+wish to override this property, you must do so before making any tracking
+calls.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appName</Declaration>
+			
+			
+			<Anchor>//api/name/appName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/appName</TokenIdentifier>
+			<Abstract type="html">The application name associated with this tracker. By default, this property is
+populated with the CFBundleName string from the application bundle. If you
+wish to override this property, you must do so before making any tracking
+calls.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appName</Declaration>
+			
+			
+			<Anchor>//api/name/appName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setAppId:</TokenIdentifier>
+			<Abstract type="html">The application identifier associated with this tracker. This should be set to
+the iTunes Connect application identifier assigned to your application. By
+default, this property is nil. If you wish to set this property, you must do
+so before making any tracking calls.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appId</Declaration>
+			
+			
+			<Anchor>//api/name/appId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/appId</TokenIdentifier>
+			<Abstract type="html">The application identifier associated with this tracker. This should be set to
+the iTunes Connect application identifier assigned to your application. By
+default, this property is nil. If you wish to set this property, you must do
+so before making any tracking calls.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appId</Declaration>
+			
+			
+			<Anchor>//api/name/appId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setAppVersion:</TokenIdentifier>
+			<Abstract type="html">The application version associated with this tracker. By default, this property
+is populated with the CFBundleShortVersionString string from the application
+bundle. If you wish to override this property, you must do so before making any
+tracking calls.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appVersion</Declaration>
+			
+			
+			<Anchor>//api/name/appVersion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/appVersion</TokenIdentifier>
+			<Abstract type="html">The application version associated with this tracker. By default, this property
+is populated with the CFBundleShortVersionString string from the application
+bundle. If you wish to override this property, you must do so before making any
+tracking calls.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appVersion</Declaration>
+			
+			
+			<Anchor>//api/name/appVersion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setAnonymize:</TokenIdentifier>
+			<Abstract type="html">Tracking data collected while this is true will be anonymized by the Google
+Analytics servers by zeroing out some of the least significant bits of the
+IP address.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL anonymize</Declaration>
+			
+			
+			<Anchor>//api/name/anonymize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/anonymize</TokenIdentifier>
+			<Abstract type="html">Tracking data collected while this is true will be anonymized by the Google
+Analytics servers by zeroing out some of the least significant bits of the
+IP address.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL anonymize</Declaration>
+			
+			
+			<Anchor>//api/name/anonymize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setUseHttps:</TokenIdentifier>
+			<Abstract type="html">Tracking information collected while this is true will be submitted to Google
+Analytics using HTTPS connection(s); otherwise, HTTP will be used. Note that
+there may be additional overhead when sending data using HTTPS in terms of
+processing costs and/or battery consumption.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL useHttps</Declaration>
+			
+			
+			<Anchor>//api/name/useHttps</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/useHttps</TokenIdentifier>
+			<Abstract type="html">Tracking information collected while this is true will be submitted to Google
+Analytics using HTTPS connection(s); otherwise, HTTP will be used. Note that
+there may be additional overhead when sending data using HTTPS in terms of
+processing costs and/or battery consumption.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL useHttps</Declaration>
+			
+			
+			<Anchor>//api/name/useHttps</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setSampleRate:</TokenIdentifier>
+			<Abstract type="html">The sampleRate parameter controls the probability that the visitor will be
+sampled. By default, sampleRate is 100, which signifies no sampling. sampleRate
+may be set to any value between 0 and 100, inclusive. A value of 90 means 90%
+of visitors should be sampled (10% of visitors to be sampled out).</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double sampleRate</Declaration>
+			
+			
+			<Anchor>//api/name/sampleRate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/sampleRate</TokenIdentifier>
+			<Abstract type="html">The sampleRate parameter controls the probability that the visitor will be
+sampled. By default, sampleRate is 100, which signifies no sampling. sampleRate
+may be set to any value between 0 and 100, inclusive. A value of 90 means 90%
+of visitors should be sampled (10% of visitors to be sampled out).</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double sampleRate</Declaration>
+			
+			
+			<Anchor>//api/name/sampleRate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setClientId:</TokenIdentifier>
+			<Abstract type="html">The client ID for the tracker.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/clientId</TokenIdentifier>
+			<Abstract type="html">The client ID for the tracker.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setAppScreen:</TokenIdentifier>
+			<Abstract type="html">The current screen set for this tracker.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appScreen</Declaration>
+			
+			
+			<Anchor>//api/name/appScreen</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/appScreen</TokenIdentifier>
+			<Abstract type="html">The current screen set for this tracker.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appScreen</Declaration>
+			
+			
+			<Anchor>//api/name/appScreen</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setReferrerUrl:</TokenIdentifier>
+			<Abstract type="html">The referrer URL for this tracker. Changing this value causes it to be sent
+with the next dispatch of tracking information.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *referrerUrl</Declaration>
+			
+			
+			<Anchor>//api/name/referrerUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/referrerUrl</TokenIdentifier>
+			<Abstract type="html">The referrer URL for this tracker. Changing this value causes it to be sent
+with the next dispatch of tracking information.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *referrerUrl</Declaration>
+			
+			
+			<Anchor>//api/name/referrerUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setCampaignUrl:</TokenIdentifier>
+			<Abstract type="html">The campaign URL for this tracker. This is not directly propagated to Google
+Analytics, but if there are campaign parameter(s), either manually or
+auto-tagged, present in this URL, the SDK will include those parameters in the
+next dispatch of tracking information. Google Analytics treats tracking
+information with differing campaign information as part of separate sessions.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *campaignUrl</Declaration>
+			
+			
+			<Anchor>//api/name/campaignUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/campaignUrl</TokenIdentifier>
+			<Abstract type="html">The campaign URL for this tracker. This is not directly propagated to Google
+Analytics, but if there are campaign parameter(s), either manually or
+auto-tagged, present in this URL, the SDK will include those parameters in the
+next dispatch of tracking information. Google Analytics treats tracking
+information with differing campaign information as part of separate sessions.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *campaignUrl</Declaration>
+			
+			
+			<Anchor>//api/name/campaignUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setSessionStart:</TokenIdentifier>
+			<Abstract type="html">If true, indicates the start of a new session. Note that when a tracker is
+first instantiated, this is initialized to true. To prevent this default
+behavior, set this to NO when the tracker is first obtained.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL sessionStart</Declaration>
+			
+			
+			<Anchor>//api/name/sessionStart</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/sessionStart</TokenIdentifier>
+			<Abstract type="html">If true, indicates the start of a new session. Note that when a tracker is
+first instantiated, this is initialized to true. To prevent this default
+behavior, set this to NO when the tracker is first obtained.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL sessionStart</Declaration>
+			
+			
+			<Anchor>//api/name/sessionStart</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setSessionTimeout:</TokenIdentifier>
+			<Abstract type="html">If non-negative, indicates how long, in seconds, the application must
+transition to the inactive or background state for before the tracker will
+automatically indicate the start of a new session when the app becomes active
+again by setting sessionStart to true. For example, if this is set to 30
+seconds, and the user receives a phone call that lasts for 45 seconds while
+using the app, upon returning to the app, the sessionStart parameter will be
+set to true. If the phone call instead lasted 10 seconds, sessionStart will not
+be modified.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval sessionTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/sessionTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/GAITracker/sessionTimeout</TokenIdentifier>
+			<Abstract type="html">If non-negative, indicates how long, in seconds, the application must
+transition to the inactive or background state for before the tracker will
+automatically indicate the start of a new session when the app becomes active
+again by setting sessionStart to true. For example, if this is set to 30
+seconds, and the user receives a phone call that lasts for 45 seconds while
+using the app, upon returning to the app, the sessionStart parameter will be
+set to true. If the phone call instead lasted 10 seconds, sessionStart will not
+be modified.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval sessionTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/sessionTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendView</TokenIdentifier>
+			<Abstract type="html">Track that the current screen (as set in appScreen was displayed. If appScreen
+has not been set, this will not generate any tracking information.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendView</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed or appScreen is not set).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackView</TokenIdentifier>
+			<Abstract type="html">This method is deprecated.  See sendView.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackView</Declaration>
+			
+			
+			<Anchor>//api/name/trackView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendView:</TokenIdentifier>
+			<Abstract type="html">Track that the specified view or screen was displayed. This call sets
+the appScreen property and generates tracking information to be sent to Google
+Analytics.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendView:(NSString *)screen</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>screen</Name>
+					<Abstract type="html">The name of the screen. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackView:</TokenIdentifier>
+			<Abstract type="html">This method is deprecated.  See sendView.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackView:(NSString *)screen</Declaration>
+			
+			
+			<Anchor>//api/name/trackView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendEventWithCategory:withAction:withLabel:withValue:</TokenIdentifier>
+			<Abstract type="html">Track an event.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendEventWithCategory:(NSString *)category withAction:(NSString *)action withLabel:(NSString *)label withValue:(NSNumber *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>category</Name>
+					<Abstract type="html">The event category, or nil if none.</Abstract>
+				</Parameter><Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The event action, or nil if none.</Abstract>
+				</Parameter><Parameter>
+					<Name>label</Name>
+					<Abstract type="html">The event label, or nil if none.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The event value, to be interpreted as a 64-bit signed integer, or
+nil if none.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendEventWithCategory:withAction:withLabel:withValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackEventWithCategory:withAction:withLabel:withValue:</TokenIdentifier>
+			<Abstract type="html">This method is deprecated. See sendEventWithCategory.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackEventWithCategory:(NSString *)category withAction:(NSString *)action withLabel:(NSString *)label withValue:(NSNumber *)value</Declaration>
+			
+			
+			<Anchor>//api/name/trackEventWithCategory:withAction:withLabel:withValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendTransaction:</TokenIdentifier>
+			<Abstract type="html">Track a transaction.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendTransaction:(GAITransaction *)transaction</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>transaction</Name>
+					<Abstract type="html">The GAITransaction object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendTransaction:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackTransaction:</TokenIdentifier>
+			<Abstract type="html">This method is deprecated. see sendTransaction.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackTransaction:(GAITransaction *)transaction</Declaration>
+			
+			
+			<Anchor>//api/name/trackTransaction:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendException:withDescription:</TokenIdentifier>
+			<Abstract type="html">Track an exception.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendException:(BOOL)isFatal withDescription:(NSString *)format, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>isFatal</Name>
+					<Abstract type="html">A boolean indicating whether the exception is fatal.</Abstract>
+				</Parameter><Parameter>
+					<Name>format</Name>
+					<Abstract type="html">A format string that will be used to create the exception
+description.</Abstract>
+				</Parameter><Parameter>
+					<Name>...</Name>
+					<Abstract type="html">An optional list of arguments to be substituted using the format
+string.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendException:withDescription:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackException:withDescription:</TokenIdentifier>
+			<Abstract type="html">This method is deprecated. See sendException.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackException:(BOOL)isFatal withDescription:(NSString *)format, ...</Declaration>
+			
+			
+			<Anchor>//api/name/trackException:withDescription:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendException:withNSException:</TokenIdentifier>
+			<Abstract type="html">Convenience method for tracking an NSException that passes the exception
+name to trackException:withDescription:.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendException:(BOOL)isFatal withNSException:(NSException *)exception</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>isFatal</Name>
+					<Abstract type="html">A boolean indicating whether the exception is fatal.</Abstract>
+				</Parameter><Parameter>
+					<Name>exception</Name>
+					<Abstract type="html">The NSException exception object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendException:withNSException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackException:withNSException:</TokenIdentifier>
+			<Abstract type="html">This method is deprecated. See sendException.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackException:(BOOL)isFatal withNSException:(NSException *)exception</Declaration>
+			
+			
+			<Anchor>//api/name/trackException:withNSException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendException:withNSError:</TokenIdentifier>
+			<Abstract type="html">Convenience method for tracking an NSError that passes the domain, code, and
+description to trackException:withDescription:.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendException:(BOOL)isFatal withNSError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>isFatal</Name>
+					<Abstract type="html">A boolean indicating whether the exception is fatal.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The NSError error object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendException:withNSError:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackException:withNSError:</TokenIdentifier>
+			<Abstract type="html">This method is deprecated. See sendException.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackException:(BOOL)isFatal withNSError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/trackException:withNSError:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendTimingWithCategory:withValue:withName:withLabel:</TokenIdentifier>
+			<Abstract type="html">Track user timing.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendTimingWithCategory:(NSString *)category withValue:(NSTimeInterval)time withName:(NSString *)name withLabel:(NSString *)label</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>category</Name>
+					<Abstract type="html">A string representing a timing category.</Abstract>
+				</Parameter><Parameter>
+					<Name>time</Name>
+					<Abstract type="html">A timing value.</Abstract>
+				</Parameter><Parameter>
+					<Name>name</Name>
+					<Abstract type="html">A string representing a timing name, or nil if none.</Abstract>
+				</Parameter><Parameter>
+					<Name>label</Name>
+					<Abstract type="html">A string representing a timing variable label, or nil if none.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendTimingWithCategory:withValue:withName:withLabel:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackTimingWithCategory:withValue:withName:withLabel:</TokenIdentifier>
+			<Abstract type="html">This method is deprecated. See sendTimingWithCategory.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackTimingWithCategory:(NSString *)category withValue:(NSTimeInterval)time withName:(NSString *)name withLabel:(NSString *)label</Declaration>
+			
+			
+			<Anchor>//api/name/trackTimingWithCategory:withValue:withName:withLabel:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/sendSocial:withAction:withTarget:</TokenIdentifier>
+			<Abstract type="html">Track social action.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)sendSocial:(NSString *)network withAction:(NSString *)action withTarget:(NSString *)target</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>network</Name>
+					<Abstract type="html">A string representing social network. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>action</Name>
+					<Abstract type="html">A string representing a social action. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>target</Name>
+					<Abstract type="html">A string representing the target. May be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for dispatch, or NO if
+there was an error (e.g. the tracker was closed).</Abstract></ReturnValue>
+			<Anchor>//api/name/sendSocial:withAction:withTarget:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/trackSocial:withAction:withTarget:</TokenIdentifier>
+			<Abstract type="html">This method is deprecated. See sendSocial.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)trackSocial:(NSString *)network withAction:(NSString *)action withTarget:(NSString *)target</Declaration>
+			
+			
+			<Anchor>//api/name/trackSocial:withAction:withTarget:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/set:value:</TokenIdentifier>
+			<Abstract type="html">Set a tracking parameter.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)set:(NSString *)parameterName value:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>parameterName</Name>
+					<Abstract type="html">The parameter name.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The value to set for the parameter. If this is nil, the
+value for the parameter will be cleared.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the parameter was set to the given value, or NO if there
+was an error (e.g. unknown parameter).</Abstract></ReturnValue>
+			<Anchor>//api/name/set:value:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/get:</TokenIdentifier>
+			<Abstract type="html">Get a tracking parameter.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)get:(NSString *)parameterName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>parameterName</Name>
+					<Abstract type="html">The parameter name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The parameter value, or nil if no value for the given parameter is
+set.</Abstract></ReturnValue>
+			<Anchor>//api/name/get:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/send:params:</TokenIdentifier>
+			<Abstract type="html">Queue tracking information with the given parameter values.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)send:(NSString *)trackType params:(NSDictionary *)parameters</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>trackType</Name>
+					<Abstract type="html">The type of tracking information, e.g., @&quot;appview&quot;.</Abstract>
+				</Parameter><Parameter>
+					<Name>parameters</Name>
+					<Abstract type="html">A map from parameter names to parameter values which will be
+set just for this piece of tracking information.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the tracking information was queued for submission, or NO
+if an error occurred (e.g. bad track type).</Abstract></ReturnValue>
+			<Anchor>//api/name/send:params:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setCustom:dimension:</TokenIdentifier>
+			<Abstract type="html">Set a custom dimension value, to be sent at the next tracking call.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)setCustom:(NSInteger)index dimension:(NSString *)dimension</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index at which to set the dimension. Must be positive.</Abstract>
+				</Parameter><Parameter>
+					<Name>dimension</Name>
+					<Abstract type="html">The dimension value, or nil if the dimension at the given
+index is to be cleared.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES on success, or NO if an error occurred.</Abstract></ReturnValue>
+			<Anchor>//api/name/setCustom:dimension:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/setCustom:metric:</TokenIdentifier>
+			<Abstract type="html">Set a custom metric value, to be sent at the next tracking call.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)setCustom:(NSInteger)index metric:(NSNumber *)metric</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index at which to set the metric. Must be positive.</Abstract>
+				</Parameter><Parameter>
+					<Name>metric</Name>
+					<Abstract type="html">The metric value, which will be interpreted as a signed 64-bit
+integer, or nil if the metric at the given index is to be cleared.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES on success, or NO if an error occurred.</Abstract></ReturnValue>
+			<Anchor>//api/name/setCustom:metric:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GAITracker/close</TokenIdentifier>
+			<Abstract type="html">Close the tracker. This will mark it as closed and remove it from the list of
+trackers accessible through [GAI trackerWithTrackingId:], thus decrementing its
+reference count (and causing it to be dealloced unless it has been retained by
+the application). Once this method has been called, it is an error to call any
+of the tracking methods, and they will not result in the generation of any
+tracking information to be submitted to Google Analytics.</Abstract>
+			<DeclaredIn>GAITracker.h</DeclaredIn>			
+			
+			<Declaration>- (void)close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

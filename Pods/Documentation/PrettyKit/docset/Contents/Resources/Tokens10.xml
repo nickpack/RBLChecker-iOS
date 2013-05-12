@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIColor+PrettyKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIColor(PrettyKit)</TokenIdentifier>
+			<Abstract type="html">This category adds a set of methods to UIColor class.</Abstract>
+			<DeclaredIn>PrettyDrawing.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(PrettyKit)/colorWithHex:</TokenIdentifier>
+			<Abstract type="html">Returns an autoreleased UIColor instance with the hexadecimal color.</Abstract>
+			<DeclaredIn>PrettyDrawing.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)colorWithHex:(int)hex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hex</Name>
+					<Abstract type="html">A color in hexadecimal notation: 0xCCCCCC, 0xF7F7F7, etc.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new autoreleased UIColor instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithHex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

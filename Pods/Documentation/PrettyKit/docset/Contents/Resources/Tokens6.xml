@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PrettyShadowPlainTableview.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PrettyShadowPlainTableview</TokenIdentifier>
+			<Abstract type="html">PrettyShadowPlainTableview is a subclass of UIView that drops a top
+or bottom shadow to use with plain tables.</Abstract>
+			<DeclaredIn>PrettyShadowPlainTableview.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PrettyShadowPlainTableview/shadowForPosition:</TokenIdentifier>
+			<Abstract type="html">Returns an autoreleased instance of PrettyShadowPlainTableview configured
+to the specified position on the table view.</Abstract>
+			<DeclaredIn>PrettyShadowPlainTableview.h</DeclaredIn>			
+			
+			<Declaration>+ (id)shadowForPosition:(PrettyShadowPlainTableviewPosition)position</Declaration>
+			
+			
+			<Anchor>//api/name/shadowForPosition:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PrettyShadowPlainTableview/setUpTableView:</TokenIdentifier>
+			<Abstract type="html">Configures automatically the given tableView by dropping a shadow in both
+header and footer. It will also change the tableView contentInset according
+to the shadows&apos; height.</Abstract>
+			<DeclaredIn>PrettyShadowPlainTableview.h</DeclaredIn>			
+			
+			<Declaration>+ (void)setUpTableView:(UITableView *)tableView</Declaration>
+			
+			
+			<Anchor>//api/name/setUpTableView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PrettyShadowPlainTableview/height</TokenIdentifier>
+			<Abstract type="html">Returns the view&apos;s height.</Abstract>
+			<DeclaredIn>PrettyShadowPlainTableview.h</DeclaredIn>			
+			
+			<Declaration>+ (float)height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

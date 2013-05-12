@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PrettySegmentedControlTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PrettySegmentedControlTableViewCell</TokenIdentifier>
+			<Abstract type="html">PrettySegmentedControlTableViewCell is a PrettyGridTableViewCell that
+behaves like a UISegmentedControl.</Abstract>
+			<DeclaredIn>PrettySegmentedControlTableViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettySegmentedControlTableViewCell/setTitles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PrettySegmentedControlTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *titles</Declaration>
+			
+			
+			<Anchor>//api/name/titles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettySegmentedControlTableViewCell/titles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PrettySegmentedControlTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *titles</Declaration>
+			
+			
+			<Anchor>//api/name/titles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettySegmentedControlTableViewCell/setSelectedIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PrettySegmentedControlTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger selectedIndex</Declaration>
+			
+			
+			<Anchor>//api/name/selectedIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettySegmentedControlTableViewCell/selectedIndex</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PrettySegmentedControlTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger selectedIndex</Declaration>
+			
+			
+			<Anchor>//api/name/selectedIndex</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

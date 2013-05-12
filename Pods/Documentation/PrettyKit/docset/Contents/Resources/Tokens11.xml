@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UITableView+PrettyKitTableViewShadows.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UITableView(PrettyKitTableViewShadows)</TokenIdentifier>
+			<Abstract type="html">This category adds a shortcut to drop shadows in both header and footer of
+a UITableView.</Abstract>
+			<DeclaredIn>PrettyShadowPlainTableview.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UITableView(PrettyKitTableViewShadows)/dropShadows</TokenIdentifier>
+			<Abstract type="html">Configures automatically the receiver tableView by dropping a shadow in both
+header and footer. It will also change the tableView&apos;s contentInset according
+to the shadows&apos; height.</Abstract>
+			<DeclaredIn>PrettyShadowPlainTableview.h</DeclaredIn>			
+			
+			<Declaration>- (void)dropShadows</Declaration>
+			
+			
+			<Anchor>//api/name/dropShadows</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

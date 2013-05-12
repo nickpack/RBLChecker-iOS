@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0495A164AA41A39DD5484F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C56F87BFAA34EF8A7ACCF75 /* libPods.a */; };
 		D9C7A615173EB6C200D19DB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7A614173EB6C200D19DB3 /* UIKit.framework */; };
 		D9C7A617173EB6C200D19DB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7A616173EB6C200D19DB3 /* Foundation.framework */; };
 		D9C7A619173EB6C200D19DB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7A618173EB6C200D19DB3 /* CoreGraphics.framework */; };
@@ -15,12 +16,21 @@
 		D9C7A626173EB6C200D19DB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9C7A624173EB6C200D19DB3 /* InfoPlist.strings */; };
 		D9C7A628173EB6C200D19DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A627173EB6C200D19DB3 /* main.m */; };
 		D9C7A62B173EB6C200D19DB3 /* RBLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A62A173EB6C200D19DB3 /* RBLCAppDelegate.m */; };
-		D9C7A62D173EB6C200D19DB3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C7A62C173EB6C200D19DB3 /* Default.png */; };
-		D9C7A62F173EB6C200D19DB3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C7A62E173EB6C200D19DB3 /* Default@2x.png */; };
-		D9C7A631173EB6C200D19DB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C7A630173EB6C200D19DB3 /* Default-568h@2x.png */; };
+		D9C7A63C173EB91B00D19DB3 /* RBLCInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A63A173EB91B00D19DB3 /* RBLCInitialViewController.m */; };
+		D9E6F040173EC30500B4CB49 /* RBLCBlacklist.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F03F173EC30500B4CB49 /* RBLCBlacklist.m */; };
+		D9E6F043173ED2FE00B4CB49 /* RBLCBlacklistResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F042173ED2FE00B4CB49 /* RBLCBlacklistResult.m */; };
+		D9E6F04E173F0E0200B4CB49 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F050173F0E0200B4CB49 /* Localizable.strings */; };
+		D9E6F05A173F100500B4CB49 /* phone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F05C173F100500B4CB49 /* phone.storyboard */; };
+		D9E6F063173FDB6C00B4CB49 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F062173FDB6B00B4CB49 /* Settings.bundle */; };
+		D9E6F065173FF89000B4CB49 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F064173FF89000B4CB49 /* Icon@2x.png */; };
+		D9E6F067173FF89600B4CB49 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F066173FF89500B4CB49 /* Icon.png */; };
+		D9E6F069173FFF6900B4CB49 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F068173FFF6800B4CB49 /* Default.png */; };
+		D9E6F06B173FFF7400B4CB49 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F06A173FFF7400B4CB49 /* Default@2x.png */; };
+		D9E6F06D173FFF7B00B4CB49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F06C173FFF7B00B4CB49 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C56F87BFAA34EF8A7ACCF75 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C7A611173EB6C200D19DB3 /* RBLChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBLChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C7A614173EB6C200D19DB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9C7A616173EB6C200D19DB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +44,36 @@
 		D9C7A627173EB6C200D19DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9C7A629173EB6C200D19DB3 /* RBLCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBLCAppDelegate.h; sourceTree = "<group>"; };
 		D9C7A62A173EB6C200D19DB3 /* RBLCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBLCAppDelegate.m; sourceTree = "<group>"; };
-		D9C7A62C173EB6C200D19DB3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D9C7A62E173EB6C200D19DB3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D9C7A630173EB6C200D19DB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D9C7A639173EB91B00D19DB3 /* RBLCInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLCInitialViewController.h; sourceTree = "<group>"; };
+		D9C7A63A173EB91B00D19DB3 /* RBLCInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLCInitialViewController.m; sourceTree = "<group>"; };
+		D9E6F03E173EC30500B4CB49 /* RBLCBlacklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLCBlacklist.h; sourceTree = "<group>"; };
+		D9E6F03F173EC30500B4CB49 /* RBLCBlacklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLCBlacklist.m; sourceTree = "<group>"; };
+		D9E6F041173ED2FE00B4CB49 /* RBLCBlacklistResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLCBlacklistResult.h; sourceTree = "<group>"; };
+		D9E6F042173ED2FE00B4CB49 /* RBLCBlacklistResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLCBlacklistResult.m; sourceTree = "<group>"; };
+		D9E6F04D173F0D8600B4CB49 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9E6F04F173F0E0200B4CB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9E6F051173F0E1000B4CB49 /* es */ = {isa = PBXFileReference; lastKnownFileType = file; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9E6F052173F0E7400B4CB49 /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9E6F053173F0E7400B4CB49 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9E6F054173F0ED500B4CB49 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9E6F055173F0ED500B4CB49 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9E6F056173F0F3B00B4CB49 /* hi */ = {isa = PBXFileReference; lastKnownFileType = file; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9E6F057173F0F3B00B4CB49 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9E6F058173F0F7D00B4CB49 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9E6F059173F0F7D00B4CB49 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9E6F05B173F100500B4CB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/phone.storyboard; sourceTree = "<group>"; };
+		D9E6F05D173F101D00B4CB49 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/phone.storyboard; sourceTree = "<group>"; };
+		D9E6F05E173F105B00B4CB49 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/phone.storyboard; sourceTree = "<group>"; };
+		D9E6F05F173F105D00B4CB49 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/phone.storyboard; sourceTree = "<group>"; };
+		D9E6F060173F105E00B4CB49 /* hi */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = hi; path = hi.lproj/phone.storyboard; sourceTree = "<group>"; };
+		D9E6F061173F105F00B4CB49 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/phone.storyboard; sourceTree = "<group>"; };
+		D9E6F062173FDB6B00B4CB49 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D9E6F064173FF89000B4CB49 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D9E6F066173FF89500B4CB49 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D9E6F068173FFF6800B4CB49 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D9E6F06A173FFF7400B4CB49 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D9E6F06C173FFF7B00B4CB49 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F47A29BF526E45F19A062207 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +84,7 @@
 				D9C7A615173EB6C200D19DB3 /* UIKit.framework in Frameworks */,
 				D9C7A617173EB6C200D19DB3 /* Foundation.framework in Frameworks */,
 				D9C7A619173EB6C200D19DB3 /* CoreGraphics.framework in Frameworks */,
+				8E0495A164AA41A39DD5484F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +94,17 @@
 		D9C7A608173EB6C100D19DB3 = {
 			isa = PBXGroup;
 			children = (
+				D9E6F06C173FFF7B00B4CB49 /* Default-568h@2x.png */,
+				D9E6F06A173FFF7400B4CB49 /* Default@2x.png */,
+				D9E6F068173FFF6800B4CB49 /* Default.png */,
+				D9E6F066173FF89500B4CB49 /* Icon.png */,
+				D9E6F064173FF89000B4CB49 /* Icon@2x.png */,
+				D9E6F050173F0E0200B4CB49 /* Localizable.strings */,
+				D9E6F05C173F100500B4CB49 /* phone.storyboard */,
 				D9C7A61A173EB6C200D19DB3 /* RBLChecker */,
 				D9C7A613173EB6C200D19DB3 /* Frameworks */,
 				D9C7A612173EB6C200D19DB3 /* Products */,
+				F47A29BF526E45F19A062207 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +122,7 @@
 				D9C7A614173EB6C200D19DB3 /* UIKit.framework */,
 				D9C7A616173EB6C200D19DB3 /* Foundation.framework */,
 				D9C7A618173EB6C200D19DB3 /* CoreGraphics.framework */,
+				1C56F87BFAA34EF8A7ACCF75 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,11 +130,14 @@
 		D9C7A61A173EB6C200D19DB3 /* RBLChecker */ = {
 			isa = PBXGroup;
 			children = (
+				D9E6F03D173EC2A500B4CB49 /* Models */,
 				D9C7A61B173EB6C200D19DB3 /* Podfile */,
 				D9C7A629173EB6C200D19DB3 /* RBLCAppDelegate.h */,
 				D9C7A62A173EB6C200D19DB3 /* RBLCAppDelegate.m */,
 				D9C7A61F173EB6C200D19DB3 /* Networking */,
 				D9C7A61D173EB6C200D19DB3 /* Supporting Files */,
+				D9C7A639173EB91B00D19DB3 /* RBLCInitialViewController.h */,
+				D9C7A63A173EB91B00D19DB3 /* RBLCInitialViewController.m */,
 			);
 			path = RBLChecker;
 			sourceTree = "<group>";
@@ -95,13 +145,11 @@
 		D9C7A61D173EB6C200D19DB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9E6F062173FDB6B00B4CB49 /* Settings.bundle */,
 				D9C7A61E173EB6C200D19DB3 /* RBLChecker-Prefix.pch */,
 				D9C7A623173EB6C200D19DB3 /* RBLChecker-Info.plist */,
 				D9C7A624173EB6C200D19DB3 /* InfoPlist.strings */,
 				D9C7A627173EB6C200D19DB3 /* main.m */,
-				D9C7A62C173EB6C200D19DB3 /* Default.png */,
-				D9C7A62E173EB6C200D19DB3 /* Default@2x.png */,
-				D9C7A630173EB6C200D19DB3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,6 +163,17 @@
 			name = Networking;
 			sourceTree = "<group>";
 		};
+		D9E6F03D173EC2A500B4CB49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9E6F03E173EC30500B4CB49 /* RBLCBlacklist.h */,
+				D9E6F03F173EC30500B4CB49 /* RBLCBlacklist.m */,
+				D9E6F041173ED2FE00B4CB49 /* RBLCBlacklistResult.h */,
+				D9E6F042173ED2FE00B4CB49 /* RBLCBlacklistResult.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9C7A634173EB6C200D19DB3 /* Build configuration list for PBXNativeTarget "RBLChecker" */;
 			buildPhases = (
+				6733BF0D08D04C4585225C45 /* Check Pods Manifest.lock */,
 				D9C7A60D173EB6C100D19DB3 /* Sources */,
 				D9C7A60E173EB6C100D19DB3 /* Frameworks */,
 				D9C7A60F173EB6C100D19DB3 /* Resources */,
+				5DF69A811FF04033BAFE1026 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +212,11 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				es,
+				ja,
+				hi,
+				fr,
 			);
 			mainGroup = D9C7A608173EB6C100D19DB3;
 			productRefGroup = D9C7A612173EB6C200D19DB3 /* Products */;
@@ -169,13 +235,49 @@
 			files = (
 				D9C7A61C173EB6C200D19DB3 /* Podfile in Resources */,
 				D9C7A626173EB6C200D19DB3 /* InfoPlist.strings in Resources */,
-				D9C7A62D173EB6C200D19DB3 /* Default.png in Resources */,
-				D9C7A62F173EB6C200D19DB3 /* Default@2x.png in Resources */,
-				D9C7A631173EB6C200D19DB3 /* Default-568h@2x.png in Resources */,
+				D9E6F05A173F100500B4CB49 /* phone.storyboard in Resources */,
+				D9E6F04E173F0E0200B4CB49 /* Localizable.strings in Resources */,
+				D9E6F063173FDB6C00B4CB49 /* Settings.bundle in Resources */,
+				D9E6F065173FF89000B4CB49 /* Icon@2x.png in Resources */,
+				D9E6F067173FF89600B4CB49 /* Icon.png in Resources */,
+				D9E6F069173FFF6900B4CB49 /* Default.png in Resources */,
+				D9E6F06B173FFF7400B4CB49 /* Default@2x.png in Resources */,
+				D9E6F06D173FFF7B00B4CB49 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DF69A811FF04033BAFE1026 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		6733BF0D08D04C4585225C45 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9C7A60D173EB6C100D19DB3 /* Sources */ = {
@@ -185,6 +287,9 @@
 				D9C7A622173EB6C200D19DB3 /* RBLCheckerAPIClient.m in Sources */,
 				D9C7A628173EB6C200D19DB3 /* main.m in Sources */,
 				D9C7A62B173EB6C200D19DB3 /* RBLCAppDelegate.m in Sources */,
+				D9C7A63C173EB91B00D19DB3 /* RBLCInitialViewController.m in Sources */,
+				D9E6F040173EC30500B4CB49 /* RBLCBlacklist.m in Sources */,
+				D9E6F043173ED2FE00B4CB49 /* RBLCBlacklistResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,8 +300,39 @@
 			isa = PBXVariantGroup;
 			children = (
 				D9C7A625173EB6C200D19DB3 /* en */,
+				D9E6F04D173F0D8600B4CB49 /* es */,
+				D9E6F053173F0E7400B4CB49 /* de */,
+				D9E6F055173F0ED500B4CB49 /* ja */,
+				D9E6F057173F0F3B00B4CB49 /* hi */,
+				D9E6F059173F0F7D00B4CB49 /* fr */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9E6F050173F0E0200B4CB49 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E6F04F173F0E0200B4CB49 /* en */,
+				D9E6F051173F0E1000B4CB49 /* es */,
+				D9E6F052173F0E7400B4CB49 /* de */,
+				D9E6F054173F0ED500B4CB49 /* ja */,
+				D9E6F056173F0F3B00B4CB49 /* hi */,
+				D9E6F058173F0F7D00B4CB49 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D9E6F05C173F100500B4CB49 /* phone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E6F05B173F100500B4CB49 /* en */,
+				D9E6F05D173F101D00B4CB49 /* es */,
+				D9E6F05E173F105B00B4CB49 /* de */,
+				D9E6F05F173F105D00B4CB49 /* ja */,
+				D9E6F060173F105E00B4CB49 /* hi */,
+				D9E6F061173F105F00B4CB49 /* fr */,
+			);
+			name = phone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,10 +396,12 @@
 		};
 		D9C7A635173EB6C200D19DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47A29BF526E45F19A062207 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RBLChecker/RBLChecker-Prefix.pch";
 				INFOPLIST_FILE = "RBLChecker/RBLChecker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -271,10 +409,12 @@
 		};
 		D9C7A636173EB6C200D19DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47A29BF526E45F19A062207 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RBLChecker/RBLChecker-Prefix.pch";
 				INFOPLIST_FILE = "RBLChecker/RBLChecker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +439,7 @@
 				D9C7A636173EB6C200D19DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

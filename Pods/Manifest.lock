@@ -1,0 +1,28 @@
+PODS:
+  - AFNetworking (1.2.1)
+  - FontAwesomeKit (1.1.2)
+  - GoogleAnalytics-iOS-SDK (2.0beta4)
+  - ODRefreshControl (1.1.0)
+  - PrettyKit (0.2.0)
+  - SVWebViewController (0.1)
+  - TSMessages (0.9.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - FontAwesomeKit
+  - GoogleAnalytics-iOS-SDK
+  - ODRefreshControl
+  - PrettyKit
+  - SVWebViewController
+  - TSMessages
+
+SPEC CHECKSUMS:
+  AFNetworking: 616da0028916ce296f5c3cef74e5552eb4e10e13
+  FontAwesomeKit: ee3b0f8795bb8ab490d1f55b584004c29aa77b6d
+  GoogleAnalytics-iOS-SDK: ae8e58e771b6dec84c0047154cc0e550a15e6f54
+  ODRefreshControl: 886e323a7c25114b9e5c397a9eefbebc034224a9
+  PrettyKit: 44b8f06f3719579880d2e11cd6498b7464b3b0fa
+  SVWebViewController: 2e3a367237bb7072e54e05c6eaa82d21a12ba676
+  TSMessages: 9169abb0e6962810b9aa8f731d7c481b05a73dec
+
+COCOAPODS: 0.19.1

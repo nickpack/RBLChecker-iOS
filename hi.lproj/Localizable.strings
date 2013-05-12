@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  RBLChecker
+
+  Created by Nick Pack on 12/05/2013.
+  Copyright (c) 2013 Nick Pack. All rights reserved.
+*/
+/* No comment provided by engineer. */
+"An error was encountered when checking" = "जाँच करते समय एक त्रुटि का सामना करना पड़ा था";
+
+/* No comment provided by engineer. */
+"An error was encountered when trying to retrieve the list of RBLs." = "RBLs की सूची प्राप्त करने के लिए प्रयास करते समय एक त्रुटि का सामना करना पड़ा था.";
+
+/* No comment provided by engineer. */
+"Error" = "त्रुटि";
+
+/* No comment provided by engineer. */
+"Please enter a valid IPv4 address or FQDN" = "एक वैध IPv4 पता या FQDN दर्ज करें";
+
+/* No comment provided by engineer. */
+"Not Listed" = "सूचीबद्ध नहीं";

@@ -1,0 +1,9 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/GoogleAnalytics-iOS-SDK/Library"
+OTHER_LDFLAGS = -ObjC -lGoogleAnalytics -framework CFNetwork -framework CoreData -framework CoreGraphics -framework CoreText -framework MessageUI -framework MobileCoreServices -framework QuartzCore -framework SystemConfiguration -framework UIKit
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/AFNetworking" "${PODS_ROOT}/BuildHeaders/FontAwesomeKit" "${PODS_ROOT}/BuildHeaders/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/BuildHeaders/ODRefreshControl" "${PODS_ROOT}/BuildHeaders/PrettyKit" "${PODS_ROOT}/BuildHeaders/SVWebViewController" "${PODS_ROOT}/BuildHeaders/TSMessages"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/FontAwesomeKit" "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/Headers/ODRefreshControl" "${PODS_ROOT}/Headers/PrettyKit" "${PODS_ROOT}/Headers/SVWebViewController" "${PODS_ROOT}/Headers/TSMessages"
+PODS_ROOT = ${SRCROOT}/Pods

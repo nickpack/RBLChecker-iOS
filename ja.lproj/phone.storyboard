@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="k8H-5t-weg">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="0Hr-Mi-g2e">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="k8H-5t-weg" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Unf-2W-Jpe" customClass="PrettyNavigationBar">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yDy-Su-tAi" kind="relationship" relationship="rootViewController" id="TM1-Id-Dqp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="viA-9i-Ibg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="618"/>
+        </scene>
+        <!--Initial View Controller - RBL Checker-->
+        <scene sceneID="AdN-wL-FGU">
+            <objects>
+                <viewController id="yDy-Su-tAi" customClass="RBLCInitialViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sD1-lZ-rvB">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="2dJ-DZ-3Qr">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="yDy-Su-tAi" id="Tyi-EA-xbe"/>
+                                    <outlet property="delegate" destination="yDy-Su-tAi" id="toM-2y-eVN"/>
+                                </connections>
+                            </tableView>
+                            <searchBar contentMode="redraw" text="" placeholder="IPv4アドレスまたはFQDNを入力してください" translatesAutoresizingMaskIntoConstraints="NO" id="7k6-UJ-zDG">
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                                <connections>
+                                    <outlet property="delegate" destination="yDy-Su-tAi" id="Cyb-kO-JEB"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2dJ-DZ-3Qr" firstAttribute="trailing" secondItem="sD1-lZ-rvB" secondAttribute="trailing" type="default" id="1nw-xd-7UG"/>
+                            <constraint firstItem="7k6-UJ-zDG" firstAttribute="trailing" secondItem="sD1-lZ-rvB" secondAttribute="trailing" type="default" id="Dh7-no-w5e"/>
+                            <constraint firstItem="2dJ-DZ-3Qr" firstAttribute="bottom" secondItem="sD1-lZ-rvB" secondAttribute="bottom" type="default" id="d2v-4Z-y8X"/>
+                            <constraint firstItem="7k6-UJ-zDG" firstAttribute="top" secondItem="sD1-lZ-rvB" secondAttribute="top" type="default" id="dsD-RR-yQM"/>
+                            <constraint firstItem="2dJ-DZ-3Qr" firstAttribute="top" secondItem="7k6-UJ-zDG" secondAttribute="bottom" type="default" id="fah-rq-lcN"/>
+                            <constraint firstItem="7k6-UJ-zDG" firstAttribute="leading" secondItem="sD1-lZ-rvB" secondAttribute="leading" type="default" id="h8w-lr-9nN"/>
+                            <constraint firstItem="2dJ-DZ-3Qr" firstAttribute="leading" secondItem="sD1-lZ-rvB" secondAttribute="leading" type="default" id="lnH-la-Oa1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="RBL Checker" id="Vof-gk-l8j"/>
+                    <connections>
+                        <outlet property="searchBar" destination="7k6-UJ-zDG" id="N5W-4y-acz"/>
+                        <outlet property="tableView" destination="2dJ-DZ-3Qr" id="SDR-jm-Tl3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7u-Nk-UeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="903" y="618"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

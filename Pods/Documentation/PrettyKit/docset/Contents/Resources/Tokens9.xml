@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PrettyToolbar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PrettyToolbar</TokenIdentifier>
+			<Abstract type="html">PrettyToolbar is a subclass of UIToolbar that removes the
+glossy effect and lets you customize its colors.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyToolbar/setShadowOpacity:</TokenIdentifier>
+			<Abstract type="html">Specifies the toolbar shadow&apos;s opacity.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float shadowOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOpacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyToolbar/shadowOpacity</TokenIdentifier>
+			<Abstract type="html">Specifies the toolbar shadow&apos;s opacity.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float shadowOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOpacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyToolbar/setGradientStartColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s start color.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyToolbar/gradientStartColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s start color.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyToolbar/setGradientEndColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s end color.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyToolbar/gradientEndColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s end color.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyToolbar/setTopLineColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s top line color.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *topLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/topLineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyToolbar/topLineColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s top line color.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *topLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/topLineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyToolbar/setBottomLineColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s bottom line color.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *bottomLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyToolbar/bottomLineColor</TokenIdentifier>
+			<Abstract type="html">Specifies the gradient&apos;s bottom line color.</Abstract>
+			<DeclaredIn>PrettyToolbar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *bottomLineColor</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLineColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

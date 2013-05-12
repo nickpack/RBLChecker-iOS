@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GAITransaction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GAITransaction</TokenIdentifier>
+			<Abstract type="html">A simple class to hold transaction data.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITransaction/setTransactionId:</TokenIdentifier>
+			<Abstract type="html">Transaction ID.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSString *transactionId</Declaration>
+			
+			
+			<Anchor>//api/name/transactionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GAITransaction/transactionId</TokenIdentifier>
+			<Abstract type="html">Transaction ID.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSString *transactionId</Declaration>
+			
+			
+			<Anchor>//api/name/transactionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITransaction/setAffiliation:</TokenIdentifier>
+			<Abstract type="html">Transaction affiliation.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSString *affiliation</Declaration>
+			
+			
+			<Anchor>//api/name/affiliation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GAITransaction/affiliation</TokenIdentifier>
+			<Abstract type="html">Transaction affiliation.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSString *affiliation</Declaration>
+			
+			
+			<Anchor>//api/name/affiliation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITransaction/setRevenueMicros:</TokenIdentifier>
+			<Abstract type="html">Revenue in micros (millionths of a currency unit). Note that this must be
+set manually because it is not updated when items are added.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int64_t revenueMicros</Declaration>
+			
+			
+			<Anchor>//api/name/revenueMicros</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GAITransaction/revenueMicros</TokenIdentifier>
+			<Abstract type="html">Revenue in micros (millionths of a currency unit). Note that this must be
+set manually because it is not updated when items are added.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int64_t revenueMicros</Declaration>
+			
+			
+			<Anchor>//api/name/revenueMicros</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITransaction/setTaxMicros:</TokenIdentifier>
+			<Abstract type="html">Tax in micros (millionths of a currency unit). Note that this must be set
+manually because it is not updated when items are added.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int64_t taxMicros</Declaration>
+			
+			
+			<Anchor>//api/name/taxMicros</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GAITransaction/taxMicros</TokenIdentifier>
+			<Abstract type="html">Tax in micros (millionths of a currency unit). Note that this must be set
+manually because it is not updated when items are added.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int64_t taxMicros</Declaration>
+			
+			
+			<Anchor>//api/name/taxMicros</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITransaction/setShippingMicros:</TokenIdentifier>
+			<Abstract type="html">Shipping cost in micros (millionths of a currency unit). Note that
+this must be set manually because it is not updated when items are added.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int64_t shippingMicros</Declaration>
+			
+			
+			<Anchor>//api/name/shippingMicros</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GAITransaction/shippingMicros</TokenIdentifier>
+			<Abstract type="html">Shipping cost in micros (millionths of a currency unit). Note that
+this must be set manually because it is not updated when items are added.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int64_t shippingMicros</Declaration>
+			
+			
+			<Anchor>//api/name/shippingMicros</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITransaction/setItems:</TokenIdentifier>
+			<Abstract type="html">Transaction items, as an immutable array.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GAITransaction/items</TokenIdentifier>
+			<Abstract type="html">Transaction items, as an immutable array.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GAITransaction/transactionWithId:withAffiliation:</TokenIdentifier>
+			<Abstract type="html">Create and initialize a transaction.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>+ (GAITransaction *)transactionWithId:(NSString *)transactionId withAffiliation:(NSString *)affiliation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>transactionId</Name>
+					<Abstract type="html">The transaction ID. Required (must not be nil).</Abstract>
+				</Parameter><Parameter>
+					<Name>affiliation</Name>
+					<Abstract type="html">The transaction affiliation. May be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A GAITransaction object with the specified transaction ID and
+affiliation.</Abstract></ReturnValue>
+			<Anchor>//api/name/transactionWithId:withAffiliation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITransaction/addItem:</TokenIdentifier>
+			<Abstract type="html">Add an item to the transaction. If an item with the same SKU already
+exists in the transaction, that item will be replaced with this one.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>- (void)addItem:(GAITransactionItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The GAITransactionItem to add to the transaction.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addItem:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GAITransaction/addItemWithCode:name:category:priceMicros:quantity:</TokenIdentifier>
+			<Abstract type="html">Add an item to the transaction. If an item with the same SKU already
+exists in the transaction, that item will be replaced with this one.</Abstract>
+			<DeclaredIn>GAITransaction.h</DeclaredIn>			
+			
+			<Declaration>- (void)addItemWithCode:(NSString *)productCode name:(NSString *)productName category:(NSString *)productCategory priceMicros:(int64_t)priceMicros quantity:(NSInteger)quantity</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>productCode</Name>
+					<Abstract type="html">The item product code; must not be nil or empty.</Abstract>
+				</Parameter><Parameter>
+					<Name>productName</Name>
+					<Abstract type="html">The item product name; may be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>productCategory</Name>
+					<Abstract type="html">The item product category; may be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>priceMicros</Name>
+					<Abstract type="html">The item price, in micros (millionths of a currency unit).</Abstract>
+				</Parameter><Parameter>
+					<Name>quantity</Name>
+					<Abstract type="html">The item quantity, as an NSInteger.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The newly initialized item.</Abstract></ReturnValue>
+			<Anchor>//api/name/addItemWithCode:name:category:priceMicros:quantity:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

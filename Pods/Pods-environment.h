@@ -1,0 +1,51 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 1
+#define COCOAPODS_VERSION_MINOR_AFNetworking 2
+#define COCOAPODS_VERSION_PATCH_AFNetworking 1
+
+// FontAwesomeKit
+#define COCOAPODS_POD_AVAILABLE_FontAwesomeKit
+#define COCOAPODS_VERSION_MAJOR_FontAwesomeKit 1
+#define COCOAPODS_VERSION_MINOR_FontAwesomeKit 1
+#define COCOAPODS_VERSION_PATCH_FontAwesomeKit 2
+
+// GoogleAnalytics-iOS-SDK
+#define COCOAPODS_POD_AVAILABLE_GoogleAnalytics_iOS_SDK
+// This library does not follow semantic-versioning,
+// so we were not able to define version macros.
+// Please contact the author.
+// Version: 2.0beta4.
+
+// ODRefreshControl
+#define COCOAPODS_POD_AVAILABLE_ODRefreshControl
+#define COCOAPODS_VERSION_MAJOR_ODRefreshControl 1
+#define COCOAPODS_VERSION_MINOR_ODRefreshControl 1
+#define COCOAPODS_VERSION_PATCH_ODRefreshControl 0
+
+// PrettyKit
+#define COCOAPODS_POD_AVAILABLE_PrettyKit
+#define COCOAPODS_VERSION_MAJOR_PrettyKit 0
+#define COCOAPODS_VERSION_MINOR_PrettyKit 2
+#define COCOAPODS_VERSION_PATCH_PrettyKit 0
+
+// SVWebViewController
+#define COCOAPODS_POD_AVAILABLE_SVWebViewController
+#define COCOAPODS_VERSION_MAJOR_SVWebViewController 0
+#define COCOAPODS_VERSION_MINOR_SVWebViewController 1
+#define COCOAPODS_VERSION_PATCH_SVWebViewController 0
+
+// TSMessages
+#define COCOAPODS_POD_AVAILABLE_TSMessages
+#define COCOAPODS_VERSION_MAJOR_TSMessages 0
+#define COCOAPODS_VERSION_MINOR_TSMessages 9
+#define COCOAPODS_VERSION_PATCH_TSMessages 2
+

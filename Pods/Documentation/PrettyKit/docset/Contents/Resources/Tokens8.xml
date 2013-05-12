@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PrettyTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PrettyTableViewCell</TokenIdentifier>
+			<Abstract type="html">PrettyTableViewCell is a subclass of UITableViewCell, so it
+is fully compatible with any UITableView.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setDropsShadow:</TokenIdentifier>
+			<Abstract type="html">Indicates if the cell should drop a shadow or not.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL dropsShadow</Declaration>
+			
+			
+			<Anchor>//api/name/dropsShadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/dropsShadow</TokenIdentifier>
+			<Abstract type="html">Indicates if the cell should drop a shadow or not.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL dropsShadow</Declaration>
+			
+			
+			<Anchor>//api/name/dropsShadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setShadowOpacity:</TokenIdentifier>
+			<Abstract type="html">Indicates the shadow opacity to use.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float shadowOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOpacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/shadowOpacity</TokenIdentifier>
+			<Abstract type="html">Indicates the shadow opacity to use.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float shadowOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOpacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setCustomBackgroundColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the background color to use.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *customBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/customBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/customBackgroundColor</TokenIdentifier>
+			<Abstract type="html">Specifies the background color to use.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *customBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/customBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setGradientStartColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the background gradient start color to use.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/gradientStartColor</TokenIdentifier>
+			<Abstract type="html">Specifies the background gradient start color to use.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setGradientEndColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the background gradient end color to use.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/gradientEndColor</TokenIdentifier>
+			<Abstract type="html">Specifies the background gradient end color to use.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *gradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/gradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setBorderColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the color used for the cell&apos;s border.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/borderColor</TokenIdentifier>
+			<Abstract type="html">Specifies the color used for the cell&apos;s border.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setCornerRadius:</TokenIdentifier>
+			<Abstract type="html">Specifies the radio used for the cell&apos;s corners.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/cornerRadius</TokenIdentifier>
+			<Abstract type="html">Specifies the radio used for the cell&apos;s corners.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setTableViewBackgroundColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the color used for the tableView&apos;s background.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *tableViewBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/tableViewBackgroundColor</TokenIdentifier>
+			<Abstract type="html">Specifies the color used for the tableView&apos;s background.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *tableViewBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setShowsCustomSeparator:</TokenIdentifier>
+			<Abstract type="html">Specifies if a custom separator should be drawn.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL showsCustomSeparator</Declaration>
+			
+			
+			<Anchor>//api/name/showsCustomSeparator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/showsCustomSeparator</TokenIdentifier>
+			<Abstract type="html">Specifies if a custom separator should be drawn.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL showsCustomSeparator</Declaration>
+			
+			
+			<Anchor>//api/name/showsCustomSeparator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setCustomSeparatorColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the color used for the cell&apos;s separator line.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *customSeparatorColor</Declaration>
+			
+			
+			<Anchor>//api/name/customSeparatorColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/customSeparatorColor</TokenIdentifier>
+			<Abstract type="html">Specifies the color used for the cell&apos;s separator line.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *customSeparatorColor</Declaration>
+			
+			
+			<Anchor>//api/name/customSeparatorColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setSelectionGradientStartColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the start color for the selection gradient.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *selectionGradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectionGradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/selectionGradientStartColor</TokenIdentifier>
+			<Abstract type="html">Specifies the start color for the selection gradient.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *selectionGradientStartColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectionGradientStartColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setSelectionGradientEndColor:</TokenIdentifier>
+			<Abstract type="html">Specifies the end color for the selection gradient.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *selectionGradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectionGradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/selectionGradientEndColor</TokenIdentifier>
+			<Abstract type="html">Specifies the end color for the selection gradient.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *selectionGradientEndColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectionGradientEndColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/prepareForTableView:indexPath:</TokenIdentifier>
+			<Abstract type="html">Tells the cell how it should draw the background shape.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)prepareForTableView:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/prepareForTableView:indexPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PrettyTableViewCell/tableView:neededHeightForIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns the needed height for a cell placed in the given indexPath.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>+ (CGFloat)tableView:(UITableView *)tableView neededHeightForIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:neededHeightForIndexPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setPosition:</TokenIdentifier>
+			<Abstract type="html">Sets the cell&apos;s position to help the background drawing.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) PrettyTableViewCellPosition position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/position</TokenIdentifier>
+			<Abstract type="html">Sets the cell&apos;s position to help the background drawing.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) PrettyTableViewCellPosition position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setInnerFrame:</TokenIdentifier>
+			<Abstract type="html">Returns the shadows&apos; innerFrame.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGRect innerFrame</Declaration>
+			
+			
+			<Anchor>//api/name/innerFrame</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/innerFrame</TokenIdentifier>
+			<Abstract type="html">Returns the shadows&apos; innerFrame.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGRect innerFrame</Declaration>
+			
+			
+			<Anchor>//api/name/innerFrame</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/setMask:</TokenIdentifier>
+			<Abstract type="html">Returns a mask with the rounded corners.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CAShapeLayer *mask</Declaration>
+			
+			
+			<Anchor>//api/name/mask</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyTableViewCell/mask</TokenIdentifier>
+			<Abstract type="html">Returns a mask with the rounded corners.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CAShapeLayer *mask</Declaration>
+			
+			
+			<Anchor>//api/name/mask</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/newSelectionGradient</TokenIdentifier>
+			<Abstract type="html">Returns a new gradient with the configured selection gradient colors.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (CGGradientRef)newSelectionGradient</Declaration>
+			
+			
+			<Anchor>//api/name/newSelectionGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/newNormalGradient</TokenIdentifier>
+			<Abstract type="html">Returns a new gradient with the configured normal gradient colors.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (CGGradientRef)newNormalGradient</Declaration>
+			
+			
+			<Anchor>//api/name/newNormalGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/createSelectionGradient</TokenIdentifier>
+			<Abstract type="html">Deprecated Returns a new gradient with the configured selection gradient colors.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (CGGradientRef)createSelectionGradient</Declaration>
+			
+			
+			<Anchor>//api/name/createSelectionGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyTableViewCell/createNormalGradient</TokenIdentifier>
+			<Abstract type="html">Deprecated Returns a new gradient with the configured normal gradient colors.</Abstract>
+			<DeclaredIn>PrettyTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (CGGradientRef)createNormalGradient</Declaration>
+			
+			
+			<Anchor>//api/name/createNormalGradient</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PrettyGridTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PrettyGridTableViewCell</TokenIdentifier>
+			<Abstract type="html">PrettyGridTableViewCell is a PrettyCustomTableViewCell customization
+that creates and manages several elements inside the same cell, displayed as a
+grid.
+  
+First of all, change numberOfElements property to match your needs. Then, call
+setText:atIndex: for each element. You can also set detail texts with
+setDetailText:atIndex:.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setNumberOfElements:</TokenIdentifier>
+			<Abstract type="html">Specifies the number of elements in the grid.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int numberOfElements</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfElements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyGridTableViewCell/numberOfElements</TokenIdentifier>
+			<Abstract type="html">Specifies the number of elements in the grid.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int numberOfElements</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfElements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setTextAlignment:</TokenIdentifier>
+			<Abstract type="html">Specifies the text alignment used in the grids.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UITextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyGridTableViewCell/textAlignment</TokenIdentifier>
+			<Abstract type="html">Specifies the text alignment used in the grids.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UITextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setTexts:</TokenIdentifier>
+			<Abstract type="html">Returns an array with all the texts in the grid.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *texts</Declaration>
+			
+			
+			<Anchor>//api/name/texts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyGridTableViewCell/texts</TokenIdentifier>
+			<Abstract type="html">Returns an array with all the texts in the grid.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *texts</Declaration>
+			
+			
+			<Anchor>//api/name/texts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setDetailTexts:</TokenIdentifier>
+			<Abstract type="html">Returns an array with all the detail texts in the grid.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *detailTexts</Declaration>
+			
+			
+			<Anchor>//api/name/detailTexts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyGridTableViewCell/detailTexts</TokenIdentifier>
+			<Abstract type="html">Returns an array with all the detail texts in the grid.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *detailTexts</Declaration>
+			
+			
+			<Anchor>//api/name/detailTexts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setShadowOnlyOnSelected:</TokenIdentifier>
+			<Abstract type="html">Specifies if the shadow should be shown only on the selected element.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL shadowOnlyOnSelected</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOnlyOnSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyGridTableViewCell/shadowOnlyOnSelected</TokenIdentifier>
+			<Abstract type="html">Specifies if the shadow should be shown only on the selected element.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL shadowOnlyOnSelected</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOnlyOnSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setText:atIndex:</TokenIdentifier>
+			<Abstract type="html">Inserts a text in the given index.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)setText:(NSString *)text atIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/setText:atIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/textAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns the text in the given index.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)textAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/textAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setDetailText:atIndex:</TokenIdentifier>
+			<Abstract type="html">Inserts a detail text in the given index.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDetailText:(NSString *)detailText atIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/setDetailText:atIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/detailTextAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns the detail text in the given index.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)detailTextAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/detailTextAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/selectIndex:</TokenIdentifier>
+			<Abstract type="html">Selects the element in the given index, drawing (if necessary) a blue
+gradient in the background.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)selectIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/selectIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/deselectAnimated:</TokenIdentifier>
+			<Abstract type="html">Deselects the currently selected element.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)deselectAnimated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/deselectAnimated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/deselectAnimated:completion:</TokenIdentifier>
+			<Abstract type="html">Deselects the currently selected element and performs the given block
+when the animation is completed.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)deselectAnimated:(BOOL)animated completion:(void ( ^ ) ( void ))block</Declaration>
+			
+			
+			<Anchor>//api/name/deselectAnimated:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setElementSelectionStyle:</TokenIdentifier>
+			<Abstract type="html">Specifies the selection style used in the grids.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UITableViewCellSelectionStyle elementSelectionStyle</Declaration>
+			
+			
+			<Anchor>//api/name/elementSelectionStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyGridTableViewCell/elementSelectionStyle</TokenIdentifier>
+			<Abstract type="html">Specifies the selection style used in the grids.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UITableViewCellSelectionStyle elementSelectionStyle</Declaration>
+			
+			
+			<Anchor>//api/name/elementSelectionStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PrettyGridTableViewCell/setActionBlock:</TokenIdentifier>
+			<Abstract type="html">Speficies the action to be performed when an element is selected.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSIndexPath *indexPath , int selectedIndex ) actionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/actionBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PrettyGridTableViewCell/actionBlock</TokenIdentifier>
+			<Abstract type="html">Speficies the action to be performed when an element is selected.</Abstract>
+			<DeclaredIn>PrettyGridTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSIndexPath *indexPath , int selectedIndex ) actionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/actionBlock</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  RBLChecker
+
+  Created by Nick Pack on 12/05/2013.
+  Copyright (c) 2013 Nick Pack. All rights reserved.
+*/
+/* No comment provided by engineer. */
+"An error was encountered when checking" = "Es wurde ein Fehler auftreten, wenn die Überprüfung";
+
+/* No comment provided by engineer. */
+"An error was encountered when trying to retrieve the list of RBLs." = "Ein Fehler ist aufgetreten, wenn sie versuchen, die Liste der RBL abrufen.";
+
+/* No comment provided by engineer. */
+"Error" = "Error";
+
+/* No comment provided by engineer. */
+"Please enter a valid IPv4 address or FQDN" = "Bitte geben Sie eine gültige IPv4-Adresse oder FQDN";
+
+/* No comment provided by engineer. */
+"Not Listed" = "Nicht aufgeführt";

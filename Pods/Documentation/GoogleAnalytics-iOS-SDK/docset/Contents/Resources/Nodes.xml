@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>GoogleAnalytics-iOS-SDK 2.0beta4</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="5"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>GAI</Name>
+			<Path>Classes/GAI.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>GAITrackedViewController</Name>
+			<Path>Classes/GAITrackedViewController.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>GAITransaction</Name>
+			<Path>Classes/GAITransaction.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>GAITransactionItem</Name>
+			<Path>Classes/GAITransactionItem.html</Path>
+		</Node>
+		
+		
+		<Node id="5">
+			<Name>GAITracker</Name>
+			<Path>Protocols/GAITracker.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

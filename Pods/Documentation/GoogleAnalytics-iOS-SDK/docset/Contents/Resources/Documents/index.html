@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>GoogleAnalytics-iOS-SDK 2.0beta4 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">GoogleAnalytics-iOS-SDK 2.0beta4 </a></h1>
+				<a id="developerHome" href="index.html">Google Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GoogleAnalytics-iOS-SDK 2.0beta4 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GoogleAnalytics-iOS-SDK 2.0beta4 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<p>Google Analytics iOS SDK version 2.0 Beta 4</p>
+
+<p>Copyright 2009 &ndash; 2013 Google, Inc. All rights reserved.</p>
+
+<p>================================================================================
+DESCRIPTION:</p>
+
+<p>This SDK provides developers with the capability to use Google Analytics
+to track iOS application usage.</p>
+
+<p>The SDK is packaged as a set of header files and a static library. Get started
+by adding the header files from the Library subdirectory (<a href="Classes/GAI.html">GAI</a>.h, <a href="Protocols/GAITracker.html">GAITracker</a>.h,
+<a href="Classes/GAITransaction.html">GAITransaction</a>.h, and <a href="Classes/GAITransactionItem.html">GAITransactionItem</a>.h) and libGoogleAnalytics.a to your
+XCode project. You must also include the CoreData framework in your project.</p>
+
+<p>To use a version of the library with debug symbols intact, link against
+libGoogleAnalytics_debug.a instead of libGoogleAnalytics.a. This may be useful
+if you experience exceptions or crashes originating in the SDK.</p>
+
+<p>See the Examples/CuteAnimals application for an illustration of how to use
+automatic screen tracking, event tracking, and uncaught exception tracking.</p>
+
+<p>You will need a Google Analytics tracking ID to track application usage with the
+SDK. It is recommended to create an account for each set of applications that
+are to be tracked together, and to use that account&rsquo;s tracking ID in each
+application. To create a new tracking ID, go to your admin panel in Google
+Analytics and select &ldquo;New Account&rdquo;. Under &ldquo;What would you like to track?&rdquo;,
+choose &ldquo;App&rdquo; and complete the remainder of the form. When you are finished,
+click &ldquo;Get Tracking ID&rdquo;. The tracking ID will be of the form &ldquo;UA-&rdquo; followed by a
+sequence of numbers and dashes.</p>
+
+<p>You must indicate to your users, either in the app itself or in your terms of
+service, that you reserve the right to anonymously track and report a user&rsquo;s
+activity inside of your app.</p>
+
+<p>Implementation Details:</p>
+
+<p>Tracking information is stored in an SQLite database and dispatched to the
+Google Analytics servers in a manner set by the developer: periodically at an
+interval determined by the developer, immediately when tracking calls are made,
+or manually. A battery efficient strategy may be to initiate a dispatch when the
+application needs to access the network. Tracking information is dispatched
+using HTTP or HTTPS requests to a Google Analytics server.</p>
+
+<p>================================================================================
+BUILD REQUIREMENTS:</p>
+
+<p>Mac OS X 10.6 or later.
+XCode with iOS SDK 4.0 or later (iOS SDK 5.0 or later is required to build the
+included example application).</p>
+
+<p>================================================================================
+RUNTIME REQUIREMENTS:</p>
+
+<p>iOS 4.0 or later.</p>
+
+<p>Your app must link the following frameworks:
+  CoreData.framework
+  SystemConfiguration.framework</p>
+
+<p>================================================================================
+PACKAGING LIST:</p>
+
+<p>Library/ (contains header and library files to compile and link with)
+  <a href="Classes/GAI.html">GAI</a>.h
+  <a href="Classes/GAITrackedViewController.html">GAITrackedViewController</a>.h
+  <a href="Protocols/GAITracker.html">GAITracker</a>.h
+  <a href="Classes/GAITransaction.html">GAITransaction</a>.h
+  <a href="Classes/GAITransactionItem.html">GAITransactionItem</a>.h
+  libGoogleAnalytics.a
+  libGoogleAnalytics_debug.a
+Examples/ (contains an example tracked application)
+Documentation/ (contains documentation)</p>
+
+<p>================================================================================</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/GAI.html">GAI</a></li>
+							
+							<li><a href="Classes/GAITrackedViewController.html">GAITrackedViewController</a></li>
+							
+							<li><a href="Classes/GAITransaction.html">GAITransaction</a></li>
+							
+							<li><a href="Classes/GAITransactionItem.html">GAITransactionItem</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/GAITracker.html">GAITracker</a></li>
+							
+						</ul>
+						
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Google Inc.. All rights reserved. (Last updated: 2013-05-12)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>
