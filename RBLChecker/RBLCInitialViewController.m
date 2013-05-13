@@ -47,7 +47,6 @@
 - (void)reload:(id)sender;
 - (void)customizeNavBar;
 - (void)checkListings:(NSString *)ip;
-- (NSString *)ipForHostname:(NSString *)hostname;
 @end
 
 @implementation RBLCInitialViewController {

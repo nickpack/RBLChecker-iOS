@@ -36,7 +36,7 @@
 
 + (void)forList:(NSString *)list withIP:(NSString*)ip resultWithBlock:(void (^)(NSArray *result, NSError *error))block {
     NSString *endpoint = [NSString stringWithFormat:@"/check/%@/%@", ip, list];
-       [[RBLCheckerAPIClient sharedClient] getPath:endpoint parameters:nil success:^(AFHTTPRequestOperation *operation, id JSON) {
+    [[RBLCheckerAPIClient sharedClient] getPath:endpoint parameters:nil success:^(AFHTTPRequestOperation *operation, id JSON) {
         NSString *result = JSON;
         if (block) {
             block([result valueForKey:@"listed"], nil);

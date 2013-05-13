@@ -17,6 +17,8 @@
 		D9C7A628173EB6C200D19DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A627173EB6C200D19DB3 /* main.m */; };
 		D9C7A62B173EB6C200D19DB3 /* RBLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A62A173EB6C200D19DB3 /* RBLCAppDelegate.m */; };
 		D9C7A63C173EB91B00D19DB3 /* RBLCInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A63A173EB91B00D19DB3 /* RBLCInitialViewController.m */; };
+		D9D51B0717418E1B005E90B8 /* RBLCDNSLookupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D51B0617418E1B005E90B8 /* RBLCDNSLookupTest.m */; };
+		D9D51B0A17418FD3005E90B8 /* RBLCAPIClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D51B0917418FD3005E90B8 /* RBLCAPIClientTest.m */; };
 		D9E6F040173EC30500B4CB49 /* RBLCBlacklist.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F03F173EC30500B4CB49 /* RBLCBlacklist.m */; };
 		D9E6F043173ED2FE00B4CB49 /* RBLCBlacklistResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F042173ED2FE00B4CB49 /* RBLCBlacklistResult.m */; };
 		D9E6F04E173F0E0200B4CB49 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9E6F050173F0E0200B4CB49 /* Localizable.strings */; };
@@ -38,11 +40,8 @@
 		D9E6F0AB174031B100B4CB49 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E6F0AA174031B100B4CB49 /* libPods.a */; };
 		D9E6F0AF174032C700B4CB49 /* RBLCFQDNValidatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F0AE174032C700B4CB49 /* RBLCFQDNValidatorTest.m */; };
 		D9E6F0B1174033B100B4CB49 /* RBLCInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A63A173EB91B00D19DB3 /* RBLCInitialViewController.m */; };
-		D9E6F0B21740351C00B4CB49 /* RBLCBlacklist.h in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F03E173EC30500B4CB49 /* RBLCBlacklist.h */; };
 		D9E6F0B31740351C00B4CB49 /* RBLCBlacklist.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F03F173EC30500B4CB49 /* RBLCBlacklist.m */; };
-		D9E6F0B41740351C00B4CB49 /* RBLCBlacklistResult.h in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F041173ED2FE00B4CB49 /* RBLCBlacklistResult.h */; };
 		D9E6F0B51740351C00B4CB49 /* RBLCBlacklistResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F042173ED2FE00B4CB49 /* RBLCBlacklistResult.m */; };
-		D9E6F0B61740353600B4CB49 /* RBLCheckerAPIClient.h in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A620173EB6C200D19DB3 /* RBLCheckerAPIClient.h */; };
 		D9E6F0B71740353600B4CB49 /* RBLCheckerAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7A621173EB6C200D19DB3 /* RBLCheckerAPIClient.m */; };
 		D9E6F0B91740354B00B4CB49 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E6F0B81740354B00B4CB49 /* SystemConfiguration.framework */; };
 		D9E6F0BC174035D600B4CB49 /* RBLCIPValidatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6F0BB174035D600B4CB49 /* RBLCIPValidatorTest.m */; };
@@ -66,6 +65,8 @@
 		D9C7A62A173EB6C200D19DB3 /* RBLCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBLCAppDelegate.m; sourceTree = "<group>"; };
 		D9C7A639173EB91B00D19DB3 /* RBLCInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLCInitialViewController.h; sourceTree = "<group>"; };
 		D9C7A63A173EB91B00D19DB3 /* RBLCInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLCInitialViewController.m; sourceTree = "<group>"; };
+		D9D51B0617418E1B005E90B8 /* RBLCDNSLookupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBLCDNSLookupTest.m; path = Tests/RBLCDNSLookupTest.m; sourceTree = "<group>"; };
+		D9D51B0917418FD3005E90B8 /* RBLCAPIClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBLCAPIClientTest.m; path = Tests/RBLCAPIClientTest.m; sourceTree = "<group>"; };
 		D9E6F03E173EC30500B4CB49 /* RBLCBlacklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLCBlacklist.h; sourceTree = "<group>"; };
 		D9E6F03F173EC30500B4CB49 /* RBLCBlacklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLCBlacklist.m; sourceTree = "<group>"; };
 		D9E6F041173ED2FE00B4CB49 /* RBLCBlacklistResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLCBlacklistResult.h; sourceTree = "<group>"; };
@@ -251,6 +252,8 @@
 			children = (
 				D9E6F0AE174032C700B4CB49 /* RBLCFQDNValidatorTest.m */,
 				D9E6F0BB174035D600B4CB49 /* RBLCIPValidatorTest.m */,
+				D9D51B0617418E1B005E90B8 /* RBLCDNSLookupTest.m */,
+				D9D51B0917418FD3005E90B8 /* RBLCAPIClientTest.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -422,16 +425,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9E6F0B61740353600B4CB49 /* RBLCheckerAPIClient.h in Sources */,
 				D9E6F0B71740353600B4CB49 /* RBLCheckerAPIClient.m in Sources */,
-				D9E6F0B21740351C00B4CB49 /* RBLCBlacklist.h in Sources */,
 				D9E6F0B31740351C00B4CB49 /* RBLCBlacklist.m in Sources */,
-				D9E6F0B41740351C00B4CB49 /* RBLCBlacklistResult.h in Sources */,
 				D9E6F0B51740351C00B4CB49 /* RBLCBlacklistResult.m in Sources */,
 				D9E6F0B1174033B100B4CB49 /* RBLCInitialViewController.m in Sources */,
 				D9E6F09C1740319C00B4CB49 /* main.m in Sources */,
 				D9E6F0AF174032C700B4CB49 /* RBLCFQDNValidatorTest.m in Sources */,
 				D9E6F0BC174035D600B4CB49 /* RBLCIPValidatorTest.m in Sources */,
+				D9D51B0717418E1B005E90B8 /* RBLCDNSLookupTest.m in Sources */,
+				D9D51B0A17418FD3005E90B8 /* RBLCAPIClientTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

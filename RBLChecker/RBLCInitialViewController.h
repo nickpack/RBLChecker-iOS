@@ -45,5 +45,6 @@
 
 - (BOOL)isValidIP:(NSString*)address isV6:(BOOL)ipv6;
 - (BOOL)isValidFQDN:(NSString *)address;
+- (NSString *)ipForHostname:(NSString *)hostname;
 
 @end
