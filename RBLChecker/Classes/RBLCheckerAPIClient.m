@@ -56,4 +56,34 @@ static NSString * const kRBLCheckerAPIBaseURLString = @"https://rblchecker.herok
     return self;
 }
 
+#pragma mark - AFIncrementalStore
+
+- (id)representationOrArrayOfRepresentationsFromResponseObject:(id)responseObject {
+    return responseObject;
+}
+
+- (NSDictionary *)attributesForRepresentation:(NSDictionary *)representation
+                                     ofEntity:(NSEntityDescription *)entity
+                                 fromResponse:(NSHTTPURLResponse *)response
+{
+    NSMutableDictionary *mutablePropertyValues = [[super attributesForRepresentation:representation ofEntity:entity fromResponse:response] mutableCopy];
+
+    // Customize the response object to fit the expected attribute keys and values
+
+    return mutablePropertyValues;
+}
+
+- (BOOL)shouldFetchRemoteAttributeValuesForObjectWithID:(NSManagedObjectID *)objectID
+                                 inManagedObjectContext:(NSManagedObjectContext *)context
+{
+    return NO;
+}
+
+- (BOOL)shouldFetchRemoteValuesForRelationship:(NSRelationshipDescription *)relationship
+                               forObjectWithID:(NSManagedObjectID *)objectID
+                        inManagedObjectContext:(NSManagedObjectContext *)context
+{
+    return NO;
+}
+
 @end

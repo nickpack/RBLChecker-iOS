@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8E0495A164AA41A39DD5484F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C56F87BFAA34EF8A7ACCF75 /* libPods.a */; };
+		D9938C5F1743713B006BD9C4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9938C5E1743713B006BD9C4 /* CoreData.framework */; };
+		D9938C6217437387006BD9C4 /* RBLChecker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9938C6017437387006BD9C4 /* RBLChecker.xcdatamodeld */; };
+		D9938C9D17437676006BD9C4 /* RBLCIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D9938C9C17437676006BD9C4 /* RBLCIncrementalStore.m */; };
 		D9C7A615173EB6C200D19DB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7A614173EB6C200D19DB3 /* UIKit.framework */; };
 		D9C7A617173EB6C200D19DB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7A616173EB6C200D19DB3 /* Foundation.framework */; };
 		D9C7A619173EB6C200D19DB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7A618173EB6C200D19DB3 /* CoreGraphics.framework */; };
@@ -50,6 +53,10 @@
 /* Begin PBXFileReference section */
 		1C56F87BFAA34EF8A7ACCF75 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D926AFEA17403A5500B9DE5F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		D9938C5E1743713B006BD9C4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9938C6117437387006BD9C4 /* RBLChecker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RBLChecker.xcdatamodel; sourceTree = "<group>"; };
+		D9938C9B17437676006BD9C4 /* RBLCIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLCIncrementalStore.h; sourceTree = "<group>"; };
+		D9938C9C17437676006BD9C4 /* RBLCIncrementalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLCIncrementalStore.m; sourceTree = "<group>"; };
 		D9C7A611173EB6C200D19DB3 /* RBLChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBLChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C7A614173EB6C200D19DB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9C7A616173EB6C200D19DB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9938C5F1743713B006BD9C4 /* CoreData.framework in Frameworks */,
 				D9E6F0B91740354B00B4CB49 /* SystemConfiguration.framework in Frameworks */,
 				D9E6F0AB174031B100B4CB49 /* libPods.a in Frameworks */,
 				D9E6F0921740319B00B4CB49 /* UIKit.framework in Frameworks */,
@@ -139,6 +147,7 @@
 		D9C7A608173EB6C100D19DB3 = {
 			isa = PBXGroup;
 			children = (
+				D9938C5E1743713B006BD9C4 /* CoreData.framework */,
 				D926AFEA17403A5500B9DE5F /* .travis.yml */,
 				D9E6F0B81740354B00B4CB49 /* SystemConfiguration.framework */,
 				D9E6F06C173FFF7B00B4CB49 /* Default-568h@2x.png */,
@@ -208,6 +217,8 @@
 			children = (
 				D9C7A620173EB6C200D19DB3 /* RBLCheckerAPIClient.h */,
 				D9C7A621173EB6C200D19DB3 /* RBLCheckerAPIClient.m */,
+				D9938C9B17437676006BD9C4 /* RBLCIncrementalStore.h */,
+				D9938C9C17437676006BD9C4 /* RBLCIncrementalStore.m */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -219,6 +230,7 @@
 				D9E6F03F173EC30500B4CB49 /* RBLCBlacklist.m */,
 				D9E6F041173ED2FE00B4CB49 /* RBLCBlacklistResult.h */,
 				D9E6F042173ED2FE00B4CB49 /* RBLCBlacklistResult.m */,
+				D9938C6017437387006BD9C4 /* RBLChecker.xcdatamodeld */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -418,6 +430,8 @@
 				D9C7A63C173EB91B00D19DB3 /* RBLCInitialViewController.m in Sources */,
 				D9E6F040173EC30500B4CB49 /* RBLCBlacklist.m in Sources */,
 				D9E6F043173ED2FE00B4CB49 /* RBLCBlacklistResult.m in Sources */,
+				D9938C6217437387006BD9C4 /* RBLChecker.xcdatamodeld in Sources */,
+				D9938C9D17437676006BD9C4 /* RBLCIncrementalStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +643,19 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9938C6017437387006BD9C4 /* RBLChecker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9938C6117437387006BD9C4 /* RBLChecker.xcdatamodel */,
+			);
+			currentVersion = D9938C6117437387006BD9C4 /* RBLChecker.xcdatamodel */;
+			path = RBLChecker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D9C7A609173EB6C100D19DB3 /* Project object */;
 }

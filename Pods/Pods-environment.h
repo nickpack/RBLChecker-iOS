@@ -6,6 +6,12 @@
 // project.
 
 
+// AFIncrementalStore
+#define COCOAPODS_POD_AVAILABLE_AFIncrementalStore
+#define COCOAPODS_VERSION_MAJOR_AFIncrementalStore 0
+#define COCOAPODS_VERSION_MINOR_AFIncrementalStore 4
+#define COCOAPODS_VERSION_PATCH_AFIncrementalStore 1
+
 // AFNetworking
 #define COCOAPODS_POD_AVAILABLE_AFNetworking
 #define COCOAPODS_VERSION_MAJOR_AFNetworking 1
@@ -31,6 +37,12 @@
 // Please contact the author.
 // Version: 2.0beta4.
 
+// InflectorKit
+#define COCOAPODS_POD_AVAILABLE_InflectorKit
+#define COCOAPODS_VERSION_MAJOR_InflectorKit 0
+#define COCOAPODS_VERSION_MINOR_InflectorKit 0
+#define COCOAPODS_VERSION_PATCH_InflectorKit 1
+
 // ODRefreshControl
 #define COCOAPODS_POD_AVAILABLE_ODRefreshControl
 #define COCOAPODS_VERSION_MAJOR_ODRefreshControl 1
@@ -54,4 +66,10 @@
 #define COCOAPODS_VERSION_MAJOR_TSMessages 0
 #define COCOAPODS_VERSION_MINOR_TSMessages 9
 #define COCOAPODS_VERSION_PATCH_TSMessages 2
+
+// TransformerKit
+#define COCOAPODS_POD_AVAILABLE_TransformerKit
+#define COCOAPODS_VERSION_MAJOR_TransformerKit 0
+#define COCOAPODS_VERSION_MINOR_TransformerKit 2
+#define COCOAPODS_VERSION_PATCH_TransformerKit 2
 

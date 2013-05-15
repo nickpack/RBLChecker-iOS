@@ -5,6 +5,7 @@
 #ifdef __OBJC__
     #import <SystemConfiguration/SystemConfiguration.h>
     #import <MobileCoreServices/MobileCoreServices.h>
+    #import <CoreData/CoreData.h>
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif

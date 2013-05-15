@@ -26,9 +26,10 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "AFHTTPClient.h"
+#import "AFIncrementalStore.h"
+#import "AFRestClient.h"
 
-@interface RBLCheckerAPIClient : AFHTTPClient
+@interface RBLCheckerAPIClient : AFRESTClient <AFIncrementalStoreHTTPClient>
 
 + (RBLCheckerAPIClient *)sharedClient;
 

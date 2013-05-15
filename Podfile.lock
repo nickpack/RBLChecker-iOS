@@ -1,14 +1,21 @@
 PODS:
+  - AFIncrementalStore (0.4.1):
+    - AFNetworking (>= 0.9.0)
+    - InflectorKit
+    - TransformerKit
   - AFNetworking (1.2.1)
   - FontAwesomeKit (1.1.2)
   - GHUnitIOS (0.5.6)
   - GoogleAnalytics-iOS-SDK (2.0beta4)
+  - InflectorKit (0.0.1)
   - ODRefreshControl (1.1.0)
   - PrettyKit (0.2.0)
   - SVWebViewController (0.1)
+  - TransformerKit (0.2.2)
   - TSMessages (0.9.2)
 
 DEPENDENCIES:
+  - AFIncrementalStore
   - AFNetworking
   - FontAwesomeKit
   - GHUnitIOS
@@ -19,13 +26,16 @@ DEPENDENCIES:
   - TSMessages
 
 SPEC CHECKSUMS:
-  AFNetworking: 616da0028916ce296f5c3cef74e5552eb4e10e13
+  AFIncrementalStore: bbb4f113ef0442aef8901c5b3df9ae646a598970
+  AFNetworking: d1ba5908b233189e424e101721acef7905b58efb
   FontAwesomeKit: ee3b0f8795bb8ab490d1f55b584004c29aa77b6d
   GHUnitIOS: bf149b2c44084eee2785ce4ac3675c3a699e509d
   GoogleAnalytics-iOS-SDK: ae8e58e771b6dec84c0047154cc0e550a15e6f54
+  InflectorKit: 9dccab02f95541093995adac639342c9eb9e6c12
   ODRefreshControl: 886e323a7c25114b9e5c397a9eefbebc034224a9
   PrettyKit: 44b8f06f3719579880d2e11cd6498b7464b3b0fa
   SVWebViewController: 2e3a367237bb7072e54e05c6eaa82d21a12ba676
+  TransformerKit: c07d1de4a661db2ca420092445750ab4ad67331a
   TSMessages: 9169abb0e6962810b9aa8f731d7c481b05a73dec
 
 COCOAPODS: 0.19.1
